@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>From Another Plane</name>
+		<description>From Another Plane Background</description>
+		<update version="0.0.5">
+            <file name="background-adventurer-orizon.xml" url=""/>
+        </update>
+		<author>Lowri</author>
+	</info>
+
+	<element name="From Another Plane" type="Background" source="Tom and Lowri Orizon Homebrew" id="ID_BACKGROUND_FROM_ANOTHER_PLANE">
+		<description>
+			<p>You came to this place from another plane, this world and its history are new or unknown to you. This could have been deliberate, a summoning, exile, or exploration. Or by chance, a mistake in a portal, a storm of wild magic. </p>
+			<ul class="unstyled">
+				<li><strong>Skill Proficiencies:</strong> 2 non-intelligence based skills of your choice.</li>
+				<li><strong>Tool Proficiencies:</strong> One type of artisan’s tools, or musical instrument of your choice.</li>
+				<li><strong>Equipment:</strong> A set of artisan’s tools or musical instrument of your choice, a shovel, a set of common or explorers clothes, some small trinket from your home plane, and a belt pouch containing 15 gp</li>
+			</ul>
+			<div element="ID_BACKGROUND_FEATURE_ORIZON_FROM_ANOTHER_PLANE_ALL_EYES_ON_YOU" />
+			<h5>SUGGESTED CHARACTERISTICS</h5>
+			<p>Depending on how you came to this plane, the characteristics you're likely to possess change wildly, an explorer might take notes to return to there home plane, an exile attempt to make the best of their new world, one summoned might know more of this plane. Those who arrived here by chance may be desperate to recreate the event that stranded them here.</p>
+		</description>
+		<setters>
+			<set name="short">Animal Handling, Survival, Artisan’s Tool, Vehicles (Land)</set>
+		</setters>
+		<rules>
+			<select type="Proficiency" name="Skill Proficiency (From Another Plane)" number="2" supports="Skill, (Strength||Dexterity||Wisdom||Charisma)"/>
+			<select type="Proficiency" name="Tool Proficiency (From Another Plane)" number="1" supports="Musical Instrument||Artisan tools" />
+			<grant type="Background Feature" id="ID_BACKGROUND_FEATURE_ORIZON_FROM_ANOTHER_PLANE_ALL_EYES_ON_YOU" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
+			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+			<select type="List" name="Personality Trait" number="2">
+				<item id="1">I have different assumptions from those around me concerning personal space, blithely invading others' space in innocence, or reacting to ignorant invasion of my own.</item>
+				<item id="2">I have my own ideas about what is and is not food, and I find the eating habits of those around me fascinating, confusing, or revolting.</item>
+				<item id="3">I have a strong code of honor or sense of propriety that others don't comprehend.</item>
+				<item id="4">I express affection or contempt in ways that are unfamiliar to others.</item>
+				<item id="5">I honor my deities through practices that are foreign to this land.</item>
+				<item id="6">I begin or end my day with small traditional rituals that are unfamiliar to those around me.</item>
+			</select>
+			<select type="List" name="Ideal">
+				<item id="1">Open. I have much to learn from the kindly folk I meet along my way. (Good)</item>
+				<item id="2">Reserved. As someone new to these strange lands, I am cautious and respectful in my dealings. (Lawful)</item>
+				<item id="3">Adventure. I'm far from home, and everything is strange and wonderful! (Chaotic)</item>
+				<item id="4">Cunning. Though I may not know their ways, neither do they know mine, which can be to my advantage. (Evil)</item>
+				<item id="5">Inquisitive. Everything is new, but I have a thirst to learn. (Neutral)</item>
+				<item id="6">Suspicious. I must be careful, for I have no way of telling friend from foe here. (Any)</item>
+			</select>
+			<select type="List" name="Bond">
+				<item id="1">So long as I have this token from my homeland, I can face any adversity in this strange land.</item>
+				<item id="2">The gods of my people are a comfort to me so far from home.</item>
+				<item id="3">I hold no greater cause than my service to my people.</item>
+				<item id="4">My freedom is my most precious possession. I'll never let anyone take it from me again.</item>
+				<item id="5">I'm fascinated by the beauty and wonder of this new land.</item>
+				<item id="6">Though I had no choice, I lament having to leave my loved one(s) behind. I hope to see them again one day.</item>
+				<item id="7">My time on this plane is spent searching for a way to return to my home.</item>
+			</select>
+			<select type="List" name="Flaw">
+				<item id="1">I am secretly (or not so secretly) convinced of the superiority of my own culture over that of this foreign land.</item>
+				<item id="2">I pretend not to understand the local language in order to avoid interactions I would rather not have.</item>
+				<item id="3">I have a weakness for the new intoxicants and other pleasures of this land.</item>
+				<item id="4">I don't take kindly to some of the actions and motivations of the people of this land, because these folk are different from me.</item>
+				<item id="5">I consider the adherents of other gods to be deluded innocents at best, or ignorant fools at worst.</item>
+				<item id="6">I have a weakness for the exotic beauty of the people of these lands.</item>
+			</select>
+		</rules>
+	</element>
+
+	<element name="Feature: All Eyes on You (From Another Plane)" type="Background Feature" source="Tom and Lowri Orizon Homebrew" id="ID_BACKGROUND_FEATURE_ORIZON_FROM_ANOTHER_PLANE_ALL_EYES_ON_YOU">
+		<supports>Background Feature</supports>
+		<description>
+			<p>Your accent, mannerisms, figures of speech, or even possibly your appearence all mark you as foreign. Curious or nervous glances are directed your way wherever you go, this can be a nuisance, but can also gain the friendly interest of those interested to hear of your home.</p>
+			<p class="indent">You can parley this attention to access people or places you might otherwise be unable to. Nobles or bards might be interested in stories of your home and people... But those who study the arcane are likely to be the most interested, should they realise you hail, not from a distant land, but from another plane entirely</p>
+		</description>
+		<sheet alt="All Eyes on You (From Another Plane)" />
+	</element>
+</elements>

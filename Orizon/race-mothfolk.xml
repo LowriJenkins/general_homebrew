@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Lepidoran</name>
+		<update version="0.1">
+			<file name="race-Lepidoran.xml" url="https://raw.githubusercontent.com/SamJenkins1/elements-reddit/master/reddit/reddit-unearthed-arcana/gus-errata-beastfolk/race-lepidora.xml" />
+		</update>
+	</info>
+
+	<element name="Lepidora" type="Race" source="Tom and Lowri's Extended Orizon Races" id="ID_RACE_LEPIDORA">
+		<description>
+			<h4>Moonlit Traders</h4>
+			<p>Much like their genetic ancestors, lepidora are drawn to light. Though for their more advanced minds, this manifests as the hustle and bustle of civilisation, never staying for long.</p>
+			<p class="indent">This natural drive to wander has lead them to excel as traders. Though supposedly rare its rarer still to meet somone who hasn't met one. Leaving many to think that they are more common than they actually are.</p>
+			<h4>Wild Magical Origins</h4>
+			<p>Its theorised, that whatever the lepidoras' true origins, it must have something to do with the wild-magic storms that plague orizon. Whether they came through a portal to another plane, the feywild, or perhaps somewhere more alien; or simply are the result of moths affected by the storms directly.</p>
+			<h4>Lepidora Traits</h4>
+			<p>Your lepidora character have a range of abilities, a result of the wild-magics of orizon that created them.</p>
+			<p class="indent"><strong><em>Ability Score Increase. </em></strong>Your Wisdom score increases by 2 and your dexterity increases by 1.</p>
+			<p class="indent"><strong><em>Age. </em></strong>Lepidora have a larval stage, but once pupated live for 30-50 years, showing no real signs of old age until near they're last few weeks of life.</p>
+			<p class="indent"><strong><em>Alignment. </em></strong>Lepidora drift towards to chaotic alignments, and their general nature tends to see them drifting towards good as well.</p>
+			<p class="indent"><strong><em>Size. </em></strong>Lepidoran vary wildly in size from barely 4 feet tall, to well past 7. You weigh signifigantly less than a human of roughly the same height. Your size is medium.</p>
+			<p class="indent"><strong><em>Speed. </em></strong>You have a base walking speed of 30 feet.</p>
+			<p class="indent"><strong><em>Darkvision. </em></strong>Much like natural moths, you can easily navigate by the slight amount of light from the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+			<p class="indent"><strong><em>Flutter. </em></strong>You have a flight speed of 30 feet when not wearing medium or heavy armour, however your wings cannot carry you as far as your little cousins, and you must land at the end of your turn.</p>
+			<p class="indent"><strong><em>Antenae. </em></strong>Your antennae help you focus your abilities to percieve the world around you, granting you profiency in perception.</p>
+			<p class="indent"><strong><em>Shiny! </em></strong>Much like natural moths, lights in the darkness easily catch your attention, though you can easily resist the urge to investigate them. You have advantage on perception checks to spot light in dark places.</p>
+			<p class="indent"><strong><em>Extra Limbs. </em></strong>You have a second pair of arms, bringing you to the six pairs of limbs insects are known for. Using your other arms, you may make one additional free object interaction per round.</p>
+			<p class="indent"><strong><em>Languages. </em></strong>You can speak, read and write Common and Lepidoran. A complex sign-language devolped to make use of your multiple limbs. While it is possible to speek a little with only 2 hands, full fluency is impossible.</p>
+			<p class="indent"><strong><em>Wandering Trades. </em></strong>The Wandering life of your people has lead to a understanding of the maps and cartography which are so important to your peoples way of life.</p>
+			</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="wisdom" value="2"/>
+			<stat name="dexterity" value="1"/>
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_SMALL" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON"/>
+			<grant type="Language" id="ID_LANGUAGE_LEPIDORA" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_FLUTTER" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SHINY" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ANTANAE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_EXTRA_LIMBS" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_WANDERING_TRADES"/>
+		</rules>
+	</element>
+	<element name="Flutter" type="Racial Trait" source="Tom and Lowri's Extended Orizon Races" id="ID_RACIAL_TRAIT_FLUTTER">
+		<description>
+			<p>You have a flight speed of 30 feet when not wearing medium or heavy armour, however your wings cannot carry you as far as your little cousins, and you must land at the end of your turn.</p>
+		</description>
+		<sheet>
+			<description>You have a flight speed of 30 feet when not wearing medium or heavy armour, however your wings cannot carry you as far as your little cousins, and you must land at the end of your turn.</description>
+		</sheet>
+		<rules>
+		<stat name="innate speed:fly" value="30" bonus="base" />
+		</rules>
+	</element>
+	<element name="Phototaxis" type="Racial Trait" source="Tom and Lowri's Extended Orizon Races" id="ID_RACIAL_TRAIT_SHINY">
+		<description>
+			<p>Much like natural moths, lights in the darkness easily catch your attention, though you can easily resist the urge to investigate them. You have advantage on perception checks to spot light in dark places.</p>
+		</description>
+		<sheet>
+			<description>Much like natural moths, lights in the darkness easily catch your attention, though you can easily resist the urge to investigate them. You have advantage on perception checks to spot light in dark places.</description>
+		</sheet>
+	</element>
+	<element name="Antenae" type="Racial Trait" source="Tom and Lowri's Extended Orizon Races" id="ID_RACIAL_TRAIT_ANTANAE">
+		<description>
+			<p>Your antennae help you focus your abilities to percieve the world around you, granting you profiency in perception.</p>
+		</description>
+		<sheet display="false">
+			<description>Your antennae help you focus your abilities to percieve the world around you, granting you profiency in perception.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" name="Antenae." id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+		</rules>
+	</element>
+	<element name="Wandering Trades" type="Racial Trait" source="Tom and Lowri's Extended Orizon Races" id="ID_RACIAL_TRAIT_WANDERING_TRADES">
+		<description>
+			<p>The Wandering life of your people has lead to a understanding of the maps and cartography which are so important to your peoples way of life.</p>
+		</description>
+		<sheet display="false">
+			<description>The Wandering life of your people has lead to a understanding of the maps and cartography which are so important to your peoples way of life.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" name="Wandering Trades" id="ID_PROFICIENCY_TOOL_PROFICIENCY_CARTOGRAPHERS_TOOLS" />
+		</rules>
+	</element>
+	<element name="Extra Limbs" type="Racial Trait" source="Tom and Lowri's Extended Orizon Races" id="ID_RACIAL_TRAIT_EXTRA_LIMBS">
+		<description>
+			<p>You have a second pair of arms, bringing you to the six pairs of limbs insects are known for. Using your other arms, you may make one item interaction as a free action per round.</p>
+		</description>
+		<sheet>
+			<description>You have a second pair of arms, bringing you to the six pairs of limbs insects are known for. Using your other arms, you may make one item interaction as a free action per round.</description>
+		</sheet>
+	</element>
+	<element name="Lepidoran" type="Language" source="Tom and Lowri's Extended Orizon Races" id="ID_LANGUAGE_LEPIDORA">
+		<supports>Exotic</supports>
+		<description>
+			<p>Lepidoran is a chittering language of squeaks that are barely audible to most species, and is rarely spoken over distances further than 10 feet away.</p>
+		</description>
+		<setters>
+			<set name="exotic">true</set>
+			<set name="speakers">Lepidora</set>
+		</setters>
+	</element>
+</elements>

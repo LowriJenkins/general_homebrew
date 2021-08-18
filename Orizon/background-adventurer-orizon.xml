@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Adventurer (Orizon)</name>
+        <description>Adventurer (Orizon)</description>
+        <update version="0.0.5">
+            <file name="background-adventurer-orizon.xml" url=""/>
+        </update>
+    </info>
+
+    <element name="Adventurer (Orizon)" type="Background" source="Tom and Lowri Orizon Homebrew" id="ID_BACKGROUND_ADVENTURER_ORIZON">
+        <description>
+            <p>You are a member of one of the many adventurers guilds across Orizon. Whether you are a recent member or a veteren of a guild you have learnt how to navigate its intracices well, finding the best quests, and knowing where to look for information.</p>
+            <p class="indent">Discuss with your dm what guild you are a member of, and what plate you have, depending on your starting level.</p>
+            <ul class="unstyled">
+                <li><strong>Skill Proficiencies:</strong> Persuasion and one Strenth or Dexterity based skill.</li>
+                <li><strong>Proficiencies:</strong> One gaming set or musical instrument of your choice and vehicles proficieny(land).</li>
+                <li><strong>Equipment:</strong> A plate indicating your rank in the guild, a set of travelers clothes, a map of the local area, a gaming set or musical instrument, some trinket of signifigance to your journey (A photo of your dead parents?) and a belt pouch containing 15 gp.</li>
+            </ul>
+            <div element="ID_BACKGROUND_FEATURE_GUILD_POLITICIAN" />
+            <h5>SUGGESTED CHARACTERISTICS</h5>
+            <p>Adventurers are an extremly varied group of people, ranging from the truly altruistic to the deeply evil, the traits following are suggestions, but we encourage you to come up with your own!</p>
+        </description>
+        <setters>
+            <set name="short">Persuasion, Atheletics or Acrobatics, vehicle proficieny(land) and one instrument or gaming set.</set>
+        </setters>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
+            <select type="Proficiency" name="Skill Proficiency (Adventurer)" supports="Skill,(Strength||Dexterity)" />
+            <select type="Proficiency" name="Tool Proficiency (Adventurer)" supports="Musical Instrument||Gaming Set" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_LAND" />
+            <grant type="Background Feature" id="ID_BACKGROUND_FEATURE_GUILD_POLITICIAN" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
+            <select type="Background Feature" name="Variant Feature" supports="Optional Background Feature Orizon" optional="true" />
+            <select type="List" name="Personality Trait" number="2">
+                <item id="1">The guilds rules are there for a  reason, I <b>will</b> be expecting us to follow them all.</item>
+                <item id="2">The best way to get me to do something is to tell me I can't do it.</item>
+                <item id="3">I tell stories about my adventures to anyone who will listen. Even tales of woe and disaster are told with enthusiasm.</item>
+                <item id="4">I believe only fellow adventurers have seen what the world has to offer. Im always telling the commonfolk they don't know what they're missing.</item>
+                <item id="5">I've had to be reassigned to different parties in the past due to my prickly personality.</item>
+                <item id="6">Thinking things through is a waste of time, let's just get to the fight.</item>
+                <item id="7">I'm never more at home then when I'm on a journey.</item>
+                <item id="8">If it's remotely possible that theres a non-violent solution, I'll try to find it.</item>
+            </select>
+            <select type="List" name="Ideal">
+                <item id="1">Order. The world is chaotic and broken, adventurers are some of the few who can bring some sense of order to it. (Lawful)</item>
+                <item id="2">Heroism. I wish to be a hero, one who helps the helpless. (Good)</item>
+                <item id="3">Freedom. I go where I wish, and do as I please, being an adventurer lets me live this lifestyle. (Chaotic)</item>
+                <item id="4">Fame and Fortune. People adventurer for two reasons: people, or the paycheck, I'm the latter. (Evil)</item>
+                <item id="5">Interest. If the job is interesting, I'm willing. (Neutral)</item>
+                <item id="6">Adrenaline. I love the thrill of danger and the unknown. (Any)</item>
+            </select>
+            <select type="List" name="Bond">
+                <item id="1">I have a rival at the guild, someone Im keen to one up.</item>
+                <item id="2">I am member today, but one day, I will run this guild.</item>
+                <item id="3">I've always been an adventurer, the guild is my family.</item>
+                <item id="4">There is a hero in the guild that I seek to emulate.</item>
+                <item id="5">I will always remember my first adventuring party.</item>
+                <item id="6">A decision I made caused the death of another, I mean to make up for this.</item>
+            </select>
+            <select type="List" name="Flaw">
+                <item id="1">I don't stop to think about the collateral damage.</item>
+                <item id="2">I don't question the motives of my employer.</item>
+                <item id="3">I am convinced of the signifigance of my own destiny. I am the main character of this story.</item>
+                <item id="4">The guild doesn't know, but I forged my entry documents.</item>
+                <item id="5">I spend of my share on worldly vices.</item>
+                <item id="6">I egregiously underestimate the risks a job represents.</item>
+            </select>
+        </rules>
+    </element>
+    
+    <element name="Feature: Guild Politician" type="Background Feature" source="Tom and Lowri Orizon Homebrew" id="ID_BACKGROUND_FEATURE_GUILD_POLITICIAN">
+        <supports>Background Feature</supports>
+        <description>
+            <p>You are well accustomed to navigating the internal politics of the guild and you know how to get a good reputation among guild employees. Employees may come to you with jobs yet to be posted to the board that they think you'd be a good fit for, and you could easily find these yourself, should the need arise.</p>
+            <p class="indent">The guilds of Orizon have access to large amounts of information, getting this information from the guild is not always easy. You however, have mastered this art. From parties in need of a member, to things other adventurers have discovered on their travels, you've learned well how to get this information from the guild.</p>
+        </description>
+        <sheet alt="Guild Politician"/>
+    </element>
+
+    <element name="Optional Feature: Guild Sweetheart" type="Background Feature" source="Tom and Lowri Orizon Homebrew" id="ID_BACKGROUND_FEATURE_GUILD_SWEETHEART">
+        <supports>Background Feature, Optional Background Feature Orizon</supports>
+        <description>
+            <p>Many guilds throughout Orizon have members of particular importance, beloved by both the local community and the guild... and used on all the guilds promotional materials. The Guild has a vested interest in you and will provide room, board, and when possible assistance on your quests, and will go to great lengths to try and ensure your success. </p>
+            <p class="indent">However, all this depends on you remaining in the guilds good graces. Bringing disrepute or even not doing the things they ask of you; will see you swifly lose this status. Discuss with your party before taking this optional feature.</p>
+        </description>
+        <sheet alt="Guild Sweetheart"/>
+        <rules>
+            <grant type="Grants" id="ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
+        </rules>
+    </element>
+</elements>

@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Deities</name>
+		<description>Deities from Orizon.</description>
+		<update version="0.2">
+			<file name="orizon-deities.xml" url="" />
+		</update>
+	</info>
+	<element name="Incantus" type="Deity" source="Orizon" id="ID_ORIZON_DEITY_INCANTUS">
+		<description>
+			<p class="flavor">god of power</p>
+		</description>
+		<setters>
+			<set name="setting">Orizon</set>
+			<set name="alignment">CE</set>
+			<set name="domains">Arcana, Death, Knowledge</set>
+			<set name="symbol">Eye surrounded by teeth</set>
+			<set name="gender">Male</set>
+		</setters>
+		<sheet>
+			<description>The mad one in the pit, old god of power</description>
+		</sheet>
+	</element>
+	<element name="Soltis" type="Deity" source="Orizon" id="ID_ORIZON_DEITY_SOLTIS">
+		<description>
+			<p class="flavor">god of the sun and time</p>
+		</description>
+		<setters>
+			<set name="setting">Orizon</set>
+			<set name="alignment">LG</set>
+			<set name="domains">Light</set>
+			<set name="symbol">The sun, with 4 red sunrays and 4 yellow</set>
+			<set name="gender">male</set>
+		</setters>
+		<sheet>
+			<description>old god of sun and time</description>
+		</sheet>
+	</element>
+	<element name="Celsete" type="Deity" source="Orizon" id="ID_ORIZON_DEITY_CELESTE">
+		<description>
+			<p class="flavor">goddess of the moon and night</p>
+		</description>
+		<setters>
+			<set name="setting">Orizon</set>
+			<set name="alignment">NG</set>
+			<set name="domains">Arcana, Light</set>
+			<set name="symbol">A half black half white mask</set>
+			<set name="gender">female</set>
+		</setters>
+		<sheet>
+			<description>old goddess of the moon and night</description>
+		</sheet>
+	</element>
+	<element name="Karn" type="Deity" source="Orizon" id="ID_ORIZON_DEITY_KARN">
+		<description>
+			<p class="flavor">goddess of earth</p>
+		</description>
+		<setters>
+			<set name="setting">Orizon</set>
+			<set name="alignment">N</set>
+			<set name="domains">Nature</set>
+			<set name="symbol">The layers of the material plane.</set>
+			<set name="gender">female</set>
+		</setters>
+		<sheet>
+			<description>old goddess of earth</description>
+		</sheet>
+	</element>
+	<element name="Tiad" type="Deity" source="Orizon" id="ID_ORIZON_DEITY_TIAD">
+		<description>
+			<p class="flavor">god of the oceans and seas</p>
+		</description>
+		<setters>
+			<set name="setting">Orizon</set>
+			<set name="alignment">N</set>
+			<set name="domains">Nature, Tempest</set>
+			<set name="symbol">A wave</set>
+			<set name="gender">male</set>
+		</setters>
+		<sheet>
+			<description>old god of the oceans and seas</description>
+		</sheet>
+	</element>
+	<element name="Vesperi" type="Deity" source="Orizon" id="ID_ORIZON_DEITY_VESPERI">
+		<description>
+			<p class="flavor">goddess of wind and skies</p>
+		</description>
+		<setters>
+			<set name="setting">Orizon</set>
+			<set name="alignment">N</set>
+			<set name="domains">Nature, Tempest</set>
+			<set name="symbol">A cloud and wind</set>
+			<set name="gender">female</set>
+		</setters>
+		<sheet>
+			<description>old goddess of wind and skies</description>
+		</sheet>
+	</element>
+	<element name="Agressa" type="Deity" source="Orizon" id="ID_ORIZON_DEITY_AGRESSA">
+		<description>
+			<p class="flavor">goddess of aggressive war</p>
+		</description>
+		<setters>
+			<set name="setting">Orizon</set>
+			<set name="alignment">CN</set>
+			<set name="domains">War</set>
+			<set name="symbol">Sword piercing a wall</set>
+			<set name="gender">female</set>
+		</setters>
+		<sheet>
+			<description>goddess of aggressive war</description>
+		</sheet>
+	</element>
+	<element name="Ashotene" type="Deity" source="Orizon" id="ID_ORIZON_DEITY_ASHOTENE">
+		<description>
+			<p class="flavor">goddess of medicine and healing</p>
+		</description>
+		<setters>
+			<set name="setting">Orizon</set>
+			<set name="alignment">LN</set>
+			<set name="domains">Arcana, Death, Life</set>
+			<set name="symbol">an orange hand with blue spiral</set>
+			<set name="gender">female</set>
+		</setters>
+		<sheet>
+			<description>goddess of medicine and healing</description>
+		</sheet>
+	</element>
+	<element name="Avarcus" type="Deity" source="Orizon" id="ID_ORIZON_DEITY_AVARCUS">
+		<description>
+			<p class="flavor">god of wealth and greed</p>
+		</description>
+		<setters>
+			<set name="setting">Orizon</set>
+			<set name="alignment">NE</set>
+			<set name="domains">Trickery</set>
+			<set name="symbol">Gold</set>
+			<set name="gender">male</set>
+		</setters>
+		<sheet>
+			<description>god of wealth and greed</description>
+		</sheet>
+	</element>
+	<element name="Bern" type="Deity" source="Orizon" id="ID_ORIZON_DEITY_BERN">
+		<description>
+			<p class="flavor">god of death and peace</p>
+		</description>
+		<setters>
+			<set name="setting">Orizon</set>
+			<set name="alignment">LN</set>
+			<set name="domains">Death, Grave</set>
+			<set name="symbol">A coffin marked with wheat</set>
+			<set name="gender">genderless</set>
+		</setters>
+		<sheet>
+			<description>god of death and peace</description>
+		</sheet>
+	</element>
+	<element name="Bol" type="Deity" source="Orizon" id="ID_ORIZON_DEITY_BOL">
+		<description>
+			<p class="flavor">god of storms</p>
+		</description>
+		<setters>
+			<set name="setting">Orizon</set>
+			<set name="alignment">CE</set>
+			<set name="domains">Tempest</set>
+			<set name="symbol">Black clouds with a single lightning bolt</set>
+			<set name="gender">male</set>
+		</setters>
+		<sheet>
+			<description>god of storms</description>
+		</sheet>
+	</element>
+	<element name="Desim" type="Deity" source="Orizon" id="ID_ORIZON_DEITY_DESIM">
+		<description>
+			<p class="flavor">god of madness and genius</p>
+		</description>
+		<setters>
+			<set name="setting">Orizon</set>
+			<set name="alignment">CN</set>
+			<set name="domains">Arcana, Knowledge, Trickery</set>
+			<set name="symbol">Two sides of the brain, one in blue, the other red</set>
+			<set name="gender">male</set>
+		</setters>
+		<sheet>
+			<description>god of madness and genius</description>
+		</sheet>
+	</element>
+	<element name="Diamete" type="Deity" source="Orizon" id="ID_ORIZON_DEITY_DIAMETE">
+		<description>
+			<p class="flavor">goddess of the wild</p>
+		</description>
+		<setters>
+			<set name="setting">Orizon</set>
+			<set name="alignment">CG</set>
+			<set name="domains">Life, Nature</set>
+			<set name="symbol">tree and antlers</set>
+			<set name="gender">female</set>
+		</setters>
+		<sheet>
+			<description>goddess of the wild</description>
+		</sheet>
+	</element>
+	<element name="Estina" type="Deity" source="Orizon" id="ID_ORIZON_DEITY_ESTINA">
+		<description>
+			<p class="flavor">goddess of travelers</p>
+		</description>
+		<setters>
+			<set name="setting">Orizon</set>
+			<set name="alignment">CG</set>
+			<set name="domains">Light, Trickery</set>
+			<set name="symbol">A sextent and compass</set>
+			<set name="gender">male</set>
+		</setters>
+		<sheet>
+			<description>goddess of travelers</description>
+		</sheet>
+	</element>
+	<element name="Fortana and Fortina" type="Deity" source="Orizon" id="ID_ORIZON_DEITY_FORTANA_AND_FORTINA">
+		<description>
+			<p class="flavor">twin goddesses of fortune</p>
+		</description>
+		<setters>
+			<set name="setting">Orizon</set>
+			<set name="alignment">CG and CE</set>
+			<set name="domains">Trickery</set>
+			<set name="symbol">a pair of dice: one black, one white</set>
+			<set name="gender">female</set>
+		</setters>
+		<sheet>
+			<description>twin goddesses of fortune</description>
+		</sheet>
+	</element>
+	<element name="Fortison" type="Deity" source="Orizon" id="ID_ORIZON_DEITY_FORTISON">
+		<description>
+			<p class="flavor">god of defensive war</p>
+		</description>
+		<setters>
+			<set name="setting">Orizon</set>
+			<set name="alignment">LN</set>
+			<set name="domains">War</set>
+			<set name="symbol">A wall behind a shield</set>
+			<set name="gender">male</set>
+		</setters>
+		<sheet>
+			<description>god of defensive war</description>
+		</sheet>
+	</element>
+	<element name="Imperna" type="Deity" source="Orizon" id="ID_ORIZON_DEITY_IMPERNA">
+		<description>
+			<p class="flavor">goddess of art and magic</p>
+		</description>
+		<setters>
+			<set name="setting">Orizon</set>
+			<set name="alignment">CG</set>
+			<set name="domains">Arcana, Light</set>
+			<set name="symbol">A paint pallet</set>
+			<set name="gender">female</set>
+		</setters>
+		<sheet>
+			<description>goddess of art and magic</description>
+		</sheet>
+	</element>
+	<element name="Matre" type="Deity" source="Orizon" id="ID_ORIZON_DEITY_MATRE">
+		<description>
+			<p class="flavor">goddess of hearth and home</p>
+		</description>
+		<setters>
+			<set name="setting">Orizon</set>
+			<set name="alignment">LG</set>
+			<set name="domains">Life</set>
+			<set name="symbol">hanging baskets of flowers</set>
+			<set name="gender">female</set>
+		</setters>
+		<sheet>
+			<description>goddess of hearth and home</description>
+		</sheet>
+	</element>
+	<element name="Mattis" type="Deity" source="Orizon" id="ID_ORIZON_DEITY_MATTIS">
+		<description>
+			<p class="flavor">god of trickery</p>
+		</description>
+		<setters>
+			<set name="setting">Orizon</set>
+			<set name="alignment">CN</set>
+			<set name="domains">Trickery</set>
+			<set name="symbol">a colourful lolipop</set>
+			<set name="gender">male</set>
+		</setters>
+		<sheet>
+			<description>god of trickery</description>
+		</sheet>
+	</element>
+	<element name="Norn" type="Deity" source="Orizon" id="ID_ORIZON_DEITY_NORN">
+		<description>
+			<p class="flavor">goddess of fate</p>
+		</description>
+		<setters>
+			<set name="setting">Orizon</set>
+			<set name="alignment">CN</set>
+			<set name="domains">Knowledge</set>
+			<set name="symbol">an hourglass</set>
+			<set name="gender">female</set>
+		</setters>
+		<sheet>
+			<description>goddess of fate</description>
+		</sheet>
+	</element>
+	<element name="Sameth" type="Deity" source="Orizon" id="ID_ORIZON_DEITY_SAMETH">
+		<description>
+			<p class="flavor">goddess of crafts</p>
+		</description>
+		<setters>
+			<set name="setting">Orizon</set>
+			<set name="alignment">N</set>
+			<set name="domains">Light</set>
+			<set name="symbol">a smiths hammer</set>
+			<set name="gender">female</set>
+		</setters>
+		<sheet>
+			<description>goddess of crafts</description>
+		</sheet>
+	</element>
+	<element name="Sildrin" type="Deity" source="Orizon" id="ID_ORIZON_DEITY_SILDRIN">
+		<description>
+			<p class="flavor">goddess of harvest and fertillity</p>
+		</description>
+		<setters>
+			<set name="setting">Orizon</set>
+			<set name="alignment">LG</set>
+			<set name="domains">Life, Nature</set>
+			<set name="symbol">sheaf of wheat</set>
+			<set name="gender">female</set>
+		</setters>
+		<sheet>
+			<description>goddess of harvest and fertillity</description>
+		</sheet>
+	</element>
+	<element name="Tharsias" type="Deity" source="Orizon" id="ID_ORIZON_DEITY_THARSIS">
+		<description>
+			<p class="flavor">god of wealth and merchants</p>
+		</description>
+		<setters>
+			<set name="setting">Orizon</set>
+			<set name="alignment">NG</set>
+			<set name="domains">Trickery</set>
+			<set name="symbol">A bull's skull filled with gold in its eyes and around its horns</set>
+			<set name="gender">male</set>
+		</setters>
+		<sheet>
+			<description>god of wealth and merchants</description>
+		</sheet>
+	</element>
+	<element name="Gadis" type="Deity" source="Orizon" id="ID_ORIZON_DEITY_GADIS">
+		<description>
+			<p class="flavor">god of knowledge and magic</p>
+		</description>
+		<setters>
+			<set name="setting">Orizon</set>
+			<set name="alignment">N</set>
+			<set name="domains">Arcana, Knowledge</set>
+			<set name="symbol">A book</set>
+			<set name="gender">male</set>
+		</setters>
+		<sheet>
+			<description>god of knowledge and magic</description>
+		</sheet>
+	</element>
+	<element name="Verdin" type="Deity" source="Orizon" id="ID_ORIZON_DEITY_VERDIN">
+		<description>
+			<p class="flavor">goddess of death</p>
+		</description>
+		<setters>
+			<set name="setting">Orizon</set>
+			<set name="alignment">LE</set>
+			<set name="domains">Knowledge</set>
+			<set name="symbol">A dagger stabbed through an eyeball</set>
+			<set name="gender">female</set>
+		</setters>
+		<sheet>
+			<description>goddess of death</description>
+		</sheet>
+	</element>
+	<element name="Virden" type="Deity" source="Orizon" id="ID_ORIZON_DEITY_VIRDEN">
+		<description>
+			<p class="flavor">god of justice</p>
+		</description>
+		<setters>
+			<set name="setting">Orizon</set>
+			<set name="alignment">LN</set>
+			<set name="domains">Knowledge</set>
+			<set name="symbol">a hand holding a pair of balanced scales</set>
+			<set name="gender">male</set>
+		</setters>
+		<sheet>
+			<description>god of justice</description>
+		</sheet>
+	</element>
+	<element name="Vister" type="Deity" source="Orizon" id="ID_ORIZON_DEITY_VISTER">
+		<description>
+			<p class="flavor">god of war</p>
+		</description>
+		<setters>
+			<set name="setting">Orizon</set>
+			<set name="alignment">CN</set>
+			<set name="domains">War, Tempest</set>
+			<set name="symbol">A morningstar before a broken wall</set>
+			<set name="gender">male</set>
+		</setters>
+		<sheet>
+			<description>god of war</description>
+		</sheet>
+	</element>
+	<element name="Wobbum" type="Deity" source="Orizon" id="ID_ORIZON_DEITY_WOBBUM">
+		<description>
+			<p class="flavor">god of revelry</p>
+		</description>
+		<setters>
+			<set name="setting">Orizon</set>
+			<set name="alignment">CN</set>
+			<set name="domains">Trickery, Life</set>
+			<set name="symbol">a spilling wineglass</set>
+			<set name="gender">male</set>
+		</setters>
+		<sheet>
+			<description>god of revelry</description>
+		</sheet>
+	</element>
+</elements>
