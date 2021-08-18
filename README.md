@@ -1,4 +1,4 @@
-# repositoryname
+# General Homebrew
 additional content to extend [Aurora](https://aurorabuilder.com/), by yourname
 
 index url: https://raw.githubusercontent.com/SamJenkins1/general_homebrew/master/top_level.index
