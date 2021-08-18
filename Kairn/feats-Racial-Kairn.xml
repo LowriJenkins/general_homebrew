@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Feats</name>
+        <description>Racial Feats from Kairn</description>
+        <update version="0.9.0">
+            <file name="feats-Racial-Karin.xml" url="https://raw.githubusercontent.com/SamJenkins1/general_homebrew/master/Kairn/feats-Racial-Kairn.xml" />
+        </update>
+    </info>
+    <element name="Improved Powerful Legs" type="Feat" source="Kairn" id="ID_KAIRN_POWERFUL_LEGS">
+        <prerequisite>Feral F'nhani</prerequisite>
+        <requirements>ID_SUB_RACE_FNHANI_FERAL||ID_WOTC_TCOE_RACE_CUSTOM_LINEAGE</requirements>
+        <description>
+            <p><i>Prerequisite: Feral F'nhani</i></p>
+            <p>You have learned to make further use of your powerful legs. You gain the following benefits:</p>
+            <ul>
+                <li>Your Powerful Legs natural weapon die increases to a d8, if another feature allows you to roll another die, you may increase that die by one size category instead.</li>
+                <li>Your max jump height is 1 foot higher, and your max jump distance is 4 foot longer.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>Your max jump height is 1 foot greater, and your max jump distance is 4 foot greater.</description>
+        </sheet>
+    </element>
+
+    <element name="Constellation Artistry" type="Feat" source="Kairn" id="ID_KAIRN_CONSTELLATION_ARTISTRY">
+        <prerequisite>Starborn</prerequisite>
+        <requirements>ID_RACE_STARBORN||ID_WOTC_TCOE_RACE_CUSTOM_LINEAGE</requirements>
+        <description>
+            <p><i>Prerequisite: Starborn</i></p>
+            <p>Your heritage as one who shaped the stars burns brightly within you. You gain the following benefits:</p>
+            <ul>
+                <li>Increase your charisma by 1 up to a maximum of 20.</li>
+                <li>Once per long rest, when casting Dancing lights through your Celestial Legacy feature, you may draw on the power that once shaped the constellations. When you do so, they must be cast as four torch-sized lights and shed bright light in a 20-foot radius. In additon, they do not need to be within 20 feet of another light and you cannot move them. When a creature enters within 5ft of one of the lights, or when a creature attempts to move away from the light while within 5 feet of it, it must make a dexterity saving throw. A creature takes 2d6 radiant damage on a failed save, or half as much damage on a successful one.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>Once per long rest, when casting Dancing lights through your Celestial Legacy feature, you may draw on the power that once shaped the constellations. When you do so, they must be cast as four torch-sized lights and shed bright light in a 20-foot radius. In additon, they do not need to be within 20 feet of another light and you cannot move them. When a creature enters within 5ft of one of the lights, or when a creature attempts to move away from the light while within 5 feet of it, it must make a dexterity saving throw (DC 8 + {{proficiency}} + {{charisma:modifier}}). A creature takes 2d6 radiant damage on a failed save, or half as much damage on a successful one.</description>
+        </sheet>
+        <rules>
+            <stat name="charisma" value="1" />
+            <stat name="Celestial Artistry DC" value="charisma:modifier" />
+        </rules>
+    </element>
+</elements>

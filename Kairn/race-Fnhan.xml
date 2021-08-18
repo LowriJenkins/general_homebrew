@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>F'nahni</name>
+		<update version="1.0.0">
+			<file name="race-Fnhan.xml" url="https://raw.githubusercontent.com/SamJenkins1/general_homebrew/master/Kairn/race-Fnhan.xml" />
+		</update>
+	</info>
+
+	<element name="F'nhani" type="Race" source="Kairn" id="ID_RACE_FNHANI">
+		<description>			
+            <h4>A PEOPLE SEPERATED</h4>
+            <p>The F'nhani people are descended from two divergent branches of an ancient ancestor, separated for thousands of years but reintroduced to each other following the humans' colonization of Kairn. </p>
+            <p class="indent">All F'nhani show features present in lagomorphs, the feral Fnhani are more harelike, and the prudent more rabbitlike.</p>
+			<h4>F'NHANI TRAITS</h4>
+			<p>F'nahni share certain racial traits as result of their natural origin </p>
+			<p class="indent"><strong><em>Ability Score Increase. </em></strong>Your Dexterity score increases by 2.</p>
+			<p class="indent"><strong><em>Age. </em></strong>F'nahni mature at 16 years, and live up to 60 years.</p>
+			<p class="indent"><strong><em>Speed. </em></strong>You have a base walking speed of 35 feet.</p>
+			<p class="indent"><strong><em>Darkvision. </em></strong>Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+			<p class="indent"><strong><em>Good Ears. </em></strong>Your large ears make you far better than most at perception. you gain perception proficiency.</p>
+            <p class="indent"><strong><em>Light Sleeper. </em></strong>You are able to sleep with you're eyes open, and are naturally always on guard for danger. You take no malus to your passive perception while sleeping, and cannot be surprised.</p>
+			<p class="indent"><strong><em>Languages. </em></strong>You can speak, read and write Common, a language decided by your subrace, and a language of your choice.</p>
+			</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="dexterity" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (F'nahni)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="innate speed" value="35" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON"/>
+			<select type="Language" name="Language, (F'nahni)" supports="Standard" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_FNAHNI_GOOD_EARS" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_FNAHNI_LIGHT_SLEEPER" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_FNAHNI_SUBRACE" />
+		</rules>
+	</element>
+	<element name="Good Ears" type="Racial Trait" source="Kairn" id="ID_RACIAL_TRAIT_FNAHNI_GOOD_EARS">
+		<description>
+			<p>Your large ears make you far better than most at perception. you gain perception proficiency.</p>
+		</description>
+		<sheet display="false" />
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+        </rules>
+	</element>
+    <element name="Light Sleeper" type="Racial Trait" source="Kairn" id="ID_RACIAL_TRAIT_FNAHNI_LIGHT_SLEEPER">
+		<description>
+			<p>You are able to sleep with you're eyes open, and are naturally always on guard for danger. You take no malus to your passive perception while sleeping, and cannot be surprised.</p>
+		</description>
+		<sheet>
+			<description>You are able to sleep with you're eyes open, and are naturally always on guard for danger. You take no malus to your passive perception while sleeping, and cannot be surprised.</description>
+		</sheet>
+	</element>
+	<element name="F'nahni Subrace" type="Racial Trait" source="Kairn" id="ID_RACIAL_TRAIT_FNAHNI_SUBRACE">
+		<description>
+			<p>Pick one of the two F'nahni subraces, The native Feral F'nahni, or the prudent F'nahni, once slaves to humanity, brought along with them to Kairn.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Sub Race" name="F'nahni Subrace" supports="Fnhani" />
+		</rules>
+	</element>
+
+    <element name="Feral" type="Sub Race" source="Kairn" id="ID_SUB_RACE_FNHANI_FERAL">
+		<supports>Fnhani</supports>
+		<description>
+			<p>The Feral F'nhani, ancient to Kairn, but few in numbers, have a shared past with the orcs of the land and exhibit great battle prowess and endurance.</p>
+			<p class="indent">The feral f'nhani were devestated when humans first arived on Kairn. Not only was it their lands that the humans first arrived in, but by bringing prudent f'nhani with them, they brought diseases to which the feral had no resistance.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 1.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Feral F'nhani are fiercely independent, and tend toward chaotic alignments.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Feral F'nhani are roughly the same height as humans, 5-6 ft tall. Though their ears my give them some extra height. They tend to have light builds for their size. </p>
+			<p class="indent"><strong><em>Powerful Legs.</em></strong> Your strong legs allow you to make supremly powerful kicks. (Finesse Natural Weapon 1d6).</p>
+            <p class="indent"><strong><em>Runners Build.</em></strong> You have training in athletics.</p>
+			<p class="indent"><strong><em>Old Allies.</em></strong> In addition to your other languages, you can speak, write, and read Orcish.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="2d10">4'8"</set>
+		</setters>
+		<rules>
+			<stat name="constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (F'nahni)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Language" id="ID_LANGUAGE_ORC" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_FERAL_FNHANI_POWERFUL_LEGS"  requirements="!ID_KAIRN_POWERFUL_LEGS"/>
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_FERAL_FNHANI_IMPROVED_POWERFUL_LEGS"  requirements="ID_KAIRN_POWERFUL_LEGS"/>
+		</rules>
+	</element> 	
+	<element name="Powerful Legs" type="Racial Trait" source="Kairn" id="ID_RACIAL_TRAIT_FERAL_FNHANI_POWERFUL_LEGS">
+		<description>
+			<p>Your powerful legs are a natural weapon, which you can use to make unarmed strikes. When making attacks with these natural weapons, you can treat them as having the finesse property. If you hit with them, you deal bludgeoning damage equal to 1d6 + the modifier you used to make the attack, instead of the normal damage of an unarmed strike.</p>
+		</description>
+		<sheet>
+			<description>Your powerful legs are a natural weapon, which you can use to make unarmed strikes. When making attacks with these natural weapons, you can treat them as having the finesse property. If you hit with them, you deal bludgeoning damage equal to 1d6+{{Feral kick str:damage}} or 1d6+{{Feral kick dex:damage}},instead of the normal damage of an unarmed strike.</description>
+		</sheet>
+		<rules>
+			<stat name="Feral kick str:damage" value="strength:modifier" />
+            <stat name="Feral kick dex:damage" value="dexterity:modifier" />
+		</rules>
+	</element>
+
+	<element name="Improved Powerful Legs" type="Racial Trait" source="Kairn" id="ID_RACIAL_TRAIT_FERAL_FNHANI_IMPROVED_POWERFUL_LEGS">
+		<description>
+			<p>Your powerful legs are a natural weapon, which you can use to make unarmed strikes. When making attacks with these natural weapons, you can treat them as having the finesse property. If you hit with them, you deal bludgeoning damage equal to 1d8 + the modifier you used to make the attack, instead of the normal damage of an unarmed strike. </p>
+			<p>If you have some other bonus to your unarmed strikes with your legs, such as a monk martial arts die, you may increase that by one category instead.</p>
+		</description>
+		<sheet>
+			<description>Your powerful legs are a natural weapon, which you can use to make unarmed strikes. When making attacks with these natural weapons, you can treat them as having the finesse property. If you hit with them, you deal bludgeoning damage equal to 1d8+{{Feral kick str:damage}} or 1d8+{{Feral kick dex:damage}},instead of the normal damage of an unarmed strike. <p>If you have some other bonus to your unarmed strikes with your legs, such as a monk martial arts die, you may increase that by one category instead.</p></description>
+		</sheet>
+		<rules>
+			<stat name="Feral kick str:damage" value="strength:modifier" />
+            <stat name="Feral kick dex:damage" value="dexterity:modifier" />
+		</rules>
+	</element>
+
+    <element name="Prudent" type="Sub Race" source="Kairn" id="ID_SUB_RACE_FNHANI_PRUDENT">
+		<supports>Fnhani</supports>
+		<description>
+			<p>The prudent F'nhani, forced into servitude for milennia by humans, have escaped into the greater lands of Kairn, and found their survival through wisdom and community. </p>
+			<p class="indent">The prudent F'nhani, still at some level remember the old days of their subjugation, and are often untrusting of religions because of their memory of human ascendency.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 1.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Prudent F'nhani are communal by nature, and thus tend toward lawfull alignments.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Prudent F'nhani are somewhat smaller than their Feral cousins. usualyl within the range of 4'9" - 5'9". They tend to have light builds for their size. </p>
+			<p class="indent"><strong><em>Burst of speed.</em></strong> Your reflexes and agility allow you to move with a burst of speed. When you move on your tum in combat, you can double your speed until the end of the tum. Once you use this trait, you can't use it again until you move 0 feet on one of your turns. </p>
+            <p class="indent"><strong><em>Place in the community.</em></strong> You have training in a language or tool of your choice.</p>
+			<p class="indent"><strong><em>Social Beings.</em></strong> In addition to your other languages, you can speak, write, and read elvish or gnomish.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="2d10">4'5"</set>
+		</setters>
+		<rules>
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (F'nahni)" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (F'nahni)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Language" name="Language, (Social Beings)." supports="ID_LANGUAGE_ELVISH|ID_LANGUAGE_GNOMISH" />
+            <select type="Racial Trait" name="Place in the community." supports="Place in the community" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_PRUDENT_FNHANI_BURST_OF_SPEED"/>
+		</rules>
+	</element> 	
+	<element name="Burst of speed" type="Racial Trait" source="Kairn" id="ID_RACIAL_TRAIT_PRUDENT_FNHANI_BURST_OF_SPEED">
+		<description>
+			<p>Your reflexes and agility allow you to move with a burst of speed. When you move on your tum in combat, you can double your speed until the end of the tum. Once you use this trait, you can't use it again until you move 0 feet on one of your turns. </p>
+		</description>
+		<sheet>
+			<description>Your reflexes and agility allow you to move with a burst of speed. When you move on your tum in combat, you can double your speed until the end of the tum. Once you use this trait, you can't use it again until you move 0 feet on one of your turns.</description>
+		</sheet>
+	</element>
+    <element name="Place in the community. (Tool)" type="Racial Trait" source="Kairn" id="ID_FNAHNI_PRUDENT_PLACE_TOOL">
+    <supports>Place in the community</supports>
+		<description>
+			<p>You have training in a tool of your choice.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<select type="Proficiency" name="Tool Proficiency, (Place in the Community)." supports="Simple||Tool" />
+		</rules>
+	</element>
+    <element name="Place in the community. (Language)" type="Racial Trait" source="Kairn" id="ID_FNAHNI_PRUDENT_PLACE_LANGUAGE">
+    <supports>Place in the community</supports>
+		<description>
+			<p>You have training in a language of your choice. </p>
+		</description>
+        <sheet display="false"/>
+		<rules>
+			<select type="Language" name="Language, (Place in the Community)." supports="Standard" />
+		</rules>
+	</element>
+</elements>
+
+
+
+ 

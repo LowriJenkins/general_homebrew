@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Extra Stuff</name>
+		<update version="1.0.0">
+			<file name="extra-Stuff.xml" url="https://raw.githubusercontent.com/SamJenkins1/general_homebrew/master/Kairn/extra-Stuff.xml" />
+		</update>
+	</info>
+
+	
+	<element name="Mixed Martial Arts" type="Class Feature" source="Lowri's Homebrew" id="ID_CLASS_FEATURE_FIGHTINGSTYLE_MMA">
+		<supports>Fighting Style, Fighter, Ranger</supports>
+		<description>
+			<p>You may use natural weapons or unarmed strikes as your off-hand weapon while attacking using the bonus action granted by light weapons. </p>
+			<p>If you do so, you do not add your ability modifier to the damage roll. </p>
+            <p>If you use an unarmed strike, its damage dice is 1d4, unless another feature allows you to use another dice. </p>
+		</description>
+		<sheet>
+			<description>
+				<p>You may use natural weapons or unarmed strikes as your off-hand weapon while attacking using the bonus action granted by light weapons. </p>
+				<p>If you do so, you do not add your ability modifier to the damage roll. </p>
+				<p>If you use an unarmed strike, its damage dice is 1d4, unless another feature allows you to use another dice. </p>
+			</description>
+		</sheet>
+	</element>
+</elements>

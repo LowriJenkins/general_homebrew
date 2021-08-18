@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Starborn</name>
+		<update version="1.0.0">
+			<file name="race-Starborn.xml" url="https://raw.githubusercontent.com/SamJenkins1/general_homebrew/master/Kairn/race-Starborn.xml" />
+		</update>
+	</info>
+
+	<element name="Starborn" type="Race" source="Kairn" id="ID_RACE_STARBORN">
+		<description>
+			<p class="flavor">Flint squinted into the setting sun. The horse felt uneasy underneath him, the unnatural quiet before the storm unsettling both him and his mount. Assembling in uneven lines, todays adversaries were as varied as they were imposing. The occasional giant stood towering over their goliath brethren, the unnaturally large half-humans now appearing tiny by comparison. Yet most dazzling of all were their ally, the mythical starborn. They were smaller than the goliaths, but their other physical characteristics made them as, if not more, oustanding. Luminious hair and eyes shining like gemstones, they looked more suited to paintings than the rages of war. Some sported smaller antlers while others had tiny horns, but all of them possessed the signature constellations, glowing patches of night sky with linked stars, vividly living on their skin.</p>
+            <p class="flavor">Flint slowly drew his sword, the order to ride would arrive soon. His adversaries seemed similarly prepared and while the goliaths and giants hefted their weapons, the starborn started putting up their small magical lights and ready their spells. Flint spat, he hated being in the vanguard and the lights would make it impossible to sneak away..</p>
+            <p class="flavor">"At least we'll die looking at something pretty" Damon, his swordmate, said. Flint nodded solemnly as the trumpet to charge sounded across the battlefield.</p>
+            <p style="float:right">- Equalla the Bard, Third Dance into the New World</p>
+            <p>The ancient allies of the giants and the mysterious sages of the stars, the starborn stand wholly aside from the humans, yet their destiny is underniably linked. The starborn originate from the ancient, now dead world of the giants, who by their unity were the crafters of the stars. Now, trapped in a new and hostile world, the starborn were reduced to mere giant legend, but have returned to reintroduce the glory of the stars to the world.</p>
+			<h4>Children of Stardust</h4>
+			<p>The starborn were forged from stardust and are defined by this origin. Though they bear some resembleance to humans, it would be hard to confuse the two races. Starborn tend to tower slightly over most other races, usually being no shorter than 6 feet, but usually not taller 7 feet. Their builds are more lean than humans and are more similar to elves, although not quite as lithe. Starborn have a variety of defining features in addition to their unique proportions; They have vibrant eyes whose color palette is as diverse as the rainbow. They have shining hair, usually the color of the night sky or the stars. Notably, starborn have antlers, that can vary from small stumps on their head, to glorious racks that would challenge even moose. Their skin tones cover the full range of human coloration, but notably has differently colored patches, with luminous constellations decorating the area. These patches are usually either purple, light blue or black.</p>
+			<h4>Constellation Designers</h4>
+            <p>While their ancient compatriots, the giants, forged the stars, the starborn arranged them into the beautiful displays that would eventually make the night sky. The starborn were made smaller and nimbler, with great social capabilities to allow for the careful creation of the great star tapestry. Although they could be highly competitive, the starborn tended to live in harmony, trusting each other to be of good heart.</p>
+            <p>In the new world, the starborn have had to make due with much more hostility. Some have taken to the tranquil nature to pursue artistic passions, but others again have become smaller influencers, attempting to restore the world to the harmonies of their ancient. Many of the kinder are city clerks, merchants, advisors, while those more cruel in their methods might be local warlords or controlling mages.</p>
+            <h4>Endearing Foreigners</h4>
+            <p>Starborn, not being native to the land, are often viewed with suspicion and sometimes hostility. Over time, they may adapt to return this and many end up becoming cynical and closed off. However, they rarely let this affect their outward display, and although they might take a long time to truly love someone internally, they usually at least attempt friendship unless that trust is violated. Starborn are natural leaders and others will often flock to them, both because of their good nature and their charming personality.</p>
+			<p>Many starborn often hide their more revealing traits and some might be confused for elves or tall humans for most of their life. A few starborn do use their unique apparence to inspire awe or terror at those around them.</p>
+            <h4>STARBORN TRAITS</h4>
+			<p>Starborn share certain racial traits as result of their celestial origin </p>
+			<p class="indent"><strong><em>Ability Score Increase. </em></strong>Your Charisma score increases by 2 and your Dexterity Score increases by 1.</p>
+			<p class="indent"><strong><em>Age. </em></strong>Starborn have an unnatural way of aging, spending 20 years as children, before reaching adolescence. From then on they mature at the same rate as humans, but live considerably longer, often reaching 250 years. For the last 50 years of their life, they tend to become highly reclusive and not speak to anyone. </p>
+			<p class="indent"><strong><em>Alignment. </em></strong>Starborn were made to work in unity with the giants and tend to be highly helpful and good-natured. They tend towards being good aligned. Most want to work within rules and prefer systems to anarchy, but some break into chaos to forge their own way in the world. </p>
+			<p class="indent"><strong><em>Size. </em></strong>Starborn are taller and lither than humans and tend to be between 6 and 7 feet tall. Your size is Medium..</p>
+			<p class="indent"><strong><em>Speed. </em></strong>Your base walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Darkvision. </em></strong>Born of the stars, the night comes naturally to you and you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
+			<p class="indent"><strong><em>Natural Born Leader.</em></strong>You gain proficiency in the persuasion skill.</p>
+			<p class="indent"><strong><em>Celestial Legacy.</em></strong>You know the dancing lights cantrip. When you reach 3rd level, you can cast the guiding bolt spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach the 5th level, you can cast the suggestion once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>
+			<p class="indent"><strong><em>Languages. </em></strong>You can speak, read, and write Common, Giant, and one extra language of your choice.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="charisma" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="dexterity" value="1"  requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Starborn)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Starborn)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE"/>
+			<grant type="Language" id="ID_LANGUAGE_GIANT" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+            <select type="Language" name="Customized Language" supports="Custom Race Language" number="2"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+            <select type="Language" name="Language (Starborn)" supports="Standard||Exotic" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_STARBORN_NATURAL_BORN_LEADER" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_STARBORN_CELESTIAL_LEGACY" />
+		</rules>
+	</element>
+	<element name="Natural Born Leader" type="Racial Trait" source="Kairn" id="ID_RACIAL_TRAIT_STARBORN_NATURAL_BORN_LEADER">
+		<description>
+			<p>You gain proficiency in the persuasion skill.</p>
+		</description>
+		<sheet display ="false">
+			<description>You gain proficiency in the persuasion skill</description>
+		</sheet>
+        <rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+	</element>
+	<element name="Celestial Legacy" type="Racial Trait" source="Kairn" id="ID_RACIAL_TRAIT_STARBORN_CELESTIAL_LEGACY">
+		<description>
+			<p>You know the dancing lights cantrip. When you reach 3rd level, you can cast the guiding bolt spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach the 5th level, you can cast the suggestion once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>
+		</description>
+		<sheet>
+            <description>You know the dancing lights cantrip. Charisma is your spellcasting abillity for this spell.</description>
+			<description level="3">You know the dancing lights cantrip. When you reach 3rd level, you can cast the guiding bolt spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</description>
+			<description level="5">You know the dancing lights cantrip. When you reach 3rd level, you can cast the guiding bolt spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach the 5th level, you can cast the suggestion once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</description>
+		</sheet>
+		<rules>
+        <grant type="Spell" id="ID_PHB_SPELL_DANCING_LIGHTS"/>
+			<grant type="Spell" id="ID_PHB_SPELL_GUIDING_BOLT" level="3"/>
+			<grant type="Spell" id="ID_PHB_SPELL_SUGGESTION" level="5"/>
+		</rules>
+	</element>
+</elements>

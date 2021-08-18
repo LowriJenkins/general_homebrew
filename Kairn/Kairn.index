@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+	<info>
+		<name>Kairn</name>
+		<update version="1.0.0">
+			<file name="Kairn.index" url="https://raw.githubusercontent.com/SamJenkins1/general_homebrew/master/Kairn/Kairn.index" />
+		</update>
+	</info>
+	<files>
+		<file name="feats-Racial-Kairn.index" url="https://raw.githubusercontent.com/SamJenkins1/general_homebrew/master/Kairn/feats-Racial-Kairn.xml" />
+		<file name="extra-Stuff.index" url="https://raw.githubusercontent.com/SamJenkins1/general_homebrew/master/Kairn/extra-Stuff.xml" />
+		<file name="race-Fnhan.index" url="https://raw.githubusercontent.com/SamJenkins1/general_homebrew/master/Kairn/race-Fnhan.xml" />
+		<file name="race-Starborn.index" url="https://raw.githubusercontent.com/SamJenkins1/general_homebrew/master/Kairn/race-Starborn.xml" />
+	</files>
+</index>

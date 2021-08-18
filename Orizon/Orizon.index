@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+	<info>
+		<name>Your Content</name>
+		<update version="1.0.0">
+			<file name="Orizon.index" url="https://raw.githubusercontent.com/SamJenkins1/general_homebrew/master/Orizon.index" />
+		</update>
+	</info>
+	<files>
+	</files>
+</index>
