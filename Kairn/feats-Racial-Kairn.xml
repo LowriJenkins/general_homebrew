@@ -3,7 +3,7 @@
     <info>
         <name>Feats</name>
         <description>Racial Feats from Kairn</description>
-        <update version="0.9.0">
+        <update version="1.0.0">
             <file name="feats-Racial-Karin.xml" url="https://raw.githubusercontent.com/SamJenkins1/general_homebrew/master/Kairn/feats-Racial-Kairn.xml" />
         </update>
     </info>
@@ -31,11 +31,11 @@
             <p>Your heritage as one who shaped the stars burns brightly within you. You gain the following benefits:</p>
             <ul>
                 <li>Increase your charisma by 1 up to a maximum of 20.</li>
-                <li>Once per long rest, when casting Dancing lights through your Celestial Legacy feature, you may draw on the power that once shaped the constellations. When you do so, they must be cast as four torch-sized lights and shed bright light in a 20-foot radius. In additon, they do not need to be within 20 feet of another light and you cannot move them. When a creature enters within 5ft of one of the lights, or when a creature attempts to move away from the light while within 5 feet of it, it must make a dexterity saving throw. A creature takes 2d6 radiant damage on a failed save, or half as much damage on a successful one.</li>
+                <li>Once per long rest, when casting Dancing lights through your Celestial Legacy feature, you may draw on the power that once shaped the constellations. When you do so, they must be cast as four torch-sized lights and shed bright light in a 20-foot radius. In additon, they do not need to be within 20 feet of another light and you cannot move them. When a creature enters within 5ft of one of the lights, or when a creature attempts to move away from the light while within 5 feet of it, the star detonates and all creatures within 5 feet of it must make must make a dexterity saving throw. A creature takes 2d6 radiant damage on a failed save, or half as much damage on a successful one.</li>
             </ul>
         </description>
         <sheet>
-            <description>Once per long rest, when casting Dancing lights through your Celestial Legacy feature, you may draw on the power that once shaped the constellations. When you do so, they must be cast as four torch-sized lights and shed bright light in a 20-foot radius. In additon, they do not need to be within 20 feet of another light and you cannot move them. When a creature enters within 5ft of one of the lights, or when a creature attempts to move away from the light while within 5 feet of it, it must make a dexterity saving throw (DC 8 + {{proficiency}} + {{charisma:modifier}}). A creature takes 2d6 radiant damage on a failed save, or half as much damage on a successful one.</description>
+            <description>Once per long rest, when casting Dancing lights through your Celestial Legacy feature, you may draw on the power that once shaped the constellations. When you do so, they must be cast as four torch-sized lights and shed bright light in a 20-foot radius. In additon, they do not need to be within 20 feet of another light and you cannot move them. When a creature enters within 5ft of one of the lights, or when a creature attempts to move away from the light while within 5 feet of it, the star detonates and all creatures within 5 feet of it must make must make a dexterity saving throw (DC 8 + {{proficiency}} + {{charisma:modifier}}). A creature takes 2d6 radiant damage on a failed save, or half as much damage on a successful one.</description>
         </sheet>
         <rules>
             <stat name="charisma" value="1" />
