@@ -6,7 +6,7 @@ index url: `https://raw.githubusercontent.com/SamJenkins1/general_homebrew/maste
 ---
 
 Repository for Kairn and Orizon setting files.
-if you just want Kairn use this index instead:
+if you just want Kairn use this index instead:<br />
 `https://raw.githubusercontent.com/SamJenkins1/general_homebrew/master/Kairn/Kairn.index`<br />
-if you just want Orizon use this index instead:
-`https://raw.githubusercontent.com/SamJenkins1/general_homebrew/master/Orizon/Orizon.index`
+if you just want Orizon use this index instead:<br />
+`https://raw.githubusercontent.com/SamJenkins1/general_homebrew/master/Orizon/Orizon.index`<br />
