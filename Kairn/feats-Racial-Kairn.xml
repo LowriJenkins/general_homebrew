@@ -3,7 +3,7 @@
     <info>
         <name>Feats</name>
         <description>Racial Feats from Kairn</description>
-        <update version="1.0.2">
+        <update version="1.0.3">
             <file name="feats-Racial-Karin.xml" url="https://raw.githubusercontent.com/SamJenkins1/general_homebrew/master/Kairn/feats-Racial-Kairn.xml" />
         </update>
     </info>
@@ -21,6 +21,25 @@
         <sheet>
             <description>Your max jump height is 1 foot greater, and your max jump distance is 4 foot greater.</description>
         </sheet>
+    </element>
+
+    <element name="Servent's Legacy" type="Feat" source="Kairn" id="Servents Legacy">
+        <prerequisite>Prudent F'nhani</prerequisite>
+        <requirements>ID_SUB_RACE_FNHANI_PRUDENT||ID_WOTC_TCOE_RACE_CUSTOM_LINEAGE</requirements>
+        <description>
+            <p><i>Prerequisite: Prudent F'nhani</i></p>
+            <p>Your people have a long legacy of serving, and knowing how to not anger their masters. You gain the following benefits:</p>
+            <ul>
+                <li>You gain proficiency in the insight skill, if you're already proficient in it, your proficiency bonus is doubled for any check you make with it.</li>
+                <li>You are a master at holding your tongue, knowing when to speak and when to hold your peace, and what someone wishes to hear. You have advantage on persuasion and insight checks made when attempting to avoid trouble.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>You are a master at holding your tongue, knowing when to speak and when to hold your peace, and what someone wishes to hear. You have advantage on persuasion and insight checks made when attempting to avoid trouble.</description>
+        </sheet>
+        <rules>
+            <grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_INSIGHT" />
+        </rules>
     </element>
 
     <element name="Constellation Artistry" type="Feat" source="Kairn" id="ID_KAIRN_CONSTELLATION_ARTISTRY">

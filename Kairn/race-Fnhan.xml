@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>F'nahni</name>
-		<update version="1.0.0">
+		<update version="1.0.1">
 			<file name="race-Fnhan.xml" url="https://raw.githubusercontent.com/SamJenkins1/general_homebrew/master/Kairn/race-Fnhan.xml" />
 		</update>
 	</info>
@@ -122,7 +122,7 @@
 			<p class="indent">The prudent F'nhani, still at some level remember the old days of their subjugation, and are often untrusting of religions because of their memory of human ascendency.</p>
 			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 1.</p>
 			<p class="indent"><strong><em>Alignment.</em></strong> Prudent F'nhani are communal by nature, and thus tend toward lawfull alignments.</p>
-			<p class="indent"><strong><em>Size.</em></strong> Prudent F'nhani are somewhat smaller than their Feral cousins. usualyl within the range of 4'9" - 5'9". They tend to have light builds for their size. </p>
+			<p class="indent"><strong><em>Size.</em></strong> Prudent F'nhani are somewhat smaller than their Feral cousins. usually within the range of 4'9" - 5'9". They tend to have light builds for their size. </p>
 			<p class="indent"><strong><em>Burst of speed.</em></strong> Your reflexes and agility allow you to move with a burst of speed. When you move on your tum in combat, you can double your speed until the end of the tum. Once you use this trait, you can't use it again until you move 0 feet on one of your turns. </p>
             <p class="indent"><strong><em>Place in the community.</em></strong> You have training in a language or tool of your choice.</p>
 			<p class="indent"><strong><em>Social Beings.</em></strong> In addition to your other languages, you can speak, write, and read elvish or gnomish.</p>
