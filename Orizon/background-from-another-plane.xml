@@ -3,13 +3,13 @@
 	<info>
 		<name>From Another Plane</name>
 		<description>From Another Plane Background</description>
-		<update version="0.0.5">
+		<update version="0.0.6">
             <file name="background-adventurer-orizon.xml" url=""/>
         </update>
 		<author>Lowri</author>
 	</info>
 
-	<element name="From Another Plane" type="Background" source="Tom and Lowri Orizon Homebrew" id="ID_BACKGROUND_FROM_ANOTHER_PLANE">
+	<element name="From Another Plane" type="Background" source="Jess and Lowri Orizon Homebrew" id="ID_BACKGROUND_FROM_ANOTHER_PLANE">
 		<description>
 			<p>You came to this place from another plane, this world and its history are new or unknown to you. This could have been deliberate, a summoning, exile, or exploration. Or by chance, a mistake in a portal, a storm of wild magic. </p>
 			<ul class="unstyled">
@@ -65,7 +65,7 @@
 		</rules>
 	</element>
 
-	<element name="Feature: All Eyes on You (From Another Plane)" type="Background Feature" source="Tom and Lowri Orizon Homebrew" id="ID_BACKGROUND_FEATURE_ORIZON_FROM_ANOTHER_PLANE_ALL_EYES_ON_YOU">
+	<element name="Feature: All Eyes on You (From Another Plane)" type="Background Feature" source="Jess and Lowri Orizon Homebrew" id="ID_BACKGROUND_FEATURE_ORIZON_FROM_ANOTHER_PLANE_ALL_EYES_ON_YOU">
 		<supports>Background Feature</supports>
 		<description>
 			<p>Your accent, mannerisms, figures of speech, or even possibly your appearence all mark you as foreign. Curious or nervous glances are directed your way wherever you go, this can be a nuisance, but can also gain the friendly interest of those interested to hear of your home.</p>

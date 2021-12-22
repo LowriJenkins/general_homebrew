@@ -3,12 +3,12 @@
     <info>
         <name>Adventurer (Orizon)</name>
         <description>Adventurer (Orizon)</description>
-        <update version="0.0.5">
+        <update version="0.0.6">
             <file name="background-adventurer-orizon.xml" url=""/>
         </update>
     </info>
 
-    <element name="Adventurer (Orizon)" type="Background" source="Tom and Lowri Orizon Homebrew" id="ID_BACKGROUND_ADVENTURER_ORIZON">
+    <element name="Adventurer (Orizon)" type="Background" source="Jess and Lowri Orizon Homebrew" id="ID_BACKGROUND_ADVENTURER_ORIZON">
         <description>
             <p>You are a member of one of the many adventurers guilds across Orizon. Whether you are a recent member or a veteren of a guild you have learnt how to navigate its intracices well, finding the best quests, and knowing where to look for information.</p>
             <p class="indent">Discuss with your dm what guild you are a member of, and what plate you have, depending on your starting level.</p>
@@ -68,16 +68,16 @@
         </rules>
     </element>
     
-    <element name="Feature: Guild Politician" type="Background Feature" source="Tom and Lowri Orizon Homebrew" id="ID_BACKGROUND_FEATURE_GUILD_POLITICIAN">
+    <element name="Feature: Guild Politician" type="Background Feature" source="Jess and Lowri Orizon Homebrew" id="ID_BACKGROUND_FEATURE_GUILD_POLITICIAN">
         <supports>Background Feature</supports>
         <description>
-            <p>You are well accustomed to navigating the internal politics of the guild and you know how to get a good reputation among guild employees. Employees may come to you with jobs yet to be posted to the board that they think you'd be a good fit for, and you could easily find these yourself, should the need arise.</p>
+            <p>You are well accusJessed to navigating the internal politics of the guild and you know how to get a good reputation among guild employees. Employees may come to you with jobs yet to be posted to the board that they think you'd be a good fit for, and you could easily find these yourself, should the need arise.</p>
             <p class="indent">The guilds of Orizon have access to large amounts of information, getting this information from the guild is not always easy. You however, have mastered this art. From parties in need of a member, to things other adventurers have discovered on their travels, you've learned well how to get this information from the guild.</p>
         </description>
         <sheet alt="Guild Politician"/>
     </element>
 
-    <element name="Optional Feature: Guild Sweetheart" type="Background Feature" source="Tom and Lowri Orizon Homebrew" id="ID_BACKGROUND_FEATURE_GUILD_SWEETHEART">
+    <element name="Optional Feature: Guild Sweetheart" type="Background Feature" source="Jess and Lowri Orizon Homebrew" id="ID_BACKGROUND_FEATURE_GUILD_SWEETHEART">
         <supports>Background Feature, Optional Background Feature Orizon</supports>
         <description>
             <p>Many guilds throughout Orizon have members of particular importance, beloved by both the local community and the guild... and used on all the guilds promotional materials. The Guild has a vested interest in you and will provide room, board, and when possible assistance on your quests, and will go to great lengths to try and ensure your success. </p>
