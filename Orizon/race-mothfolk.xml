@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Lepidoran</name>
-		<update version="0.2">
+		<update version="0.3">
 			<file name="race-Lepidoran.xml" url="https://raw.githubusercontent.com/SamJenkins1/elements-reddit/master/reddit/reddit-unearthed-arcana/gus-errata-beastfolk/race-lepidora.xml" />
 		</update>
 	</info>
@@ -97,7 +97,7 @@
 	<element name="Lepidoran" type="Language" source="Jess and Lowri's Extended Orizon Races" id="ID_LANGUAGE_LEPIDORA">
 		<supports>Exotic</supports>
 		<description>
-			<p>Lepidoran is a chittering language of squeaks that are barely audible to most species, and is rarely spoken over distances further than 10 feet away.</p>
+			<p>A complex sign-language devolped to make use of your multiple limbs. While it is possible to speek a little with only 2 hands, full fluency is impossible.</p>
 		</description>
 		<setters>
 			<set name="exotic">true</set>
