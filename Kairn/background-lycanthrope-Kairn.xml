@@ -3,7 +3,7 @@
     <info>
         <name>Lycanthrope</name>
         <description>Lycanthrope</description>
-        <update version="0.0.7">
+        <update version="0.0.8">
             <file name="background-lycanthrope-Kairn.xml" url=""/>
         </update>
     </info>
@@ -11,7 +11,7 @@
     <element name="Lycanthrope" type="Background" source="Kairn" id="ID_BACKGROUND_LYCANTHROPE_KAIRN">
         <description>
             <p>Lycanthropes are creatures who are forced to transform into a hideous beast under the influence of the full moon or a similar condition. While transformed, they are monstrosities, with no amount of violence capable of sating their bloodlust. While not transformed, lycanthropes aim to hide their curse and preserve their hidden identity from those around them. They might trust a select few to keep their curse hidden and help them contain themselves during their mindless transformation. Lycanthropes are generally aiming to discover a way to remove the curse imposed upon them.</p>
-            <br>
+            <br></br>
             <p>Before playing a lycanthrope, talk to your DM about how lycanthropy works in the setting, and what the cause and nature of the curse is. Figure out what the trigger condition of your transformation, and how long it lasts, and ensure the party is onboard. Lycanthropy should be a risk for the party and player until it is resolved. Generally speaking, the curse will have some origin in the family history or the previous actions of the player, and needs to be possible to lift, although this method need not relate to the curse itself (magic/alchemy). If desirable, remove curse might cure lycanthropy, although this path is not recommended as it is generally anticlimactic unless divine magic is exceedingly rare in the setting.</p>
             <ul class="unstyled">
                 <li><strong>Skill Proficiencies:</strong> Deception, Survival. </li>
@@ -73,9 +73,9 @@
         <supports>Background Feature</supports>
         <description>
             <p>When the trigger for your transformation occurs, you morph into a terrible monster until the trigger recedes. In this period of time, you transform into a Werewolf, and the DM controls your actions. The DM might give you limited control at their discretion. While a Werewolf, you retain any features and abilities you possess in your normal form. Your physical stats change to match that of the Werewolf, unless your own physical stats are greater. A Werewolf is hostile to all nearby creatures, but still has a sense of self-preservation and will run away if threatened. Transformations will continue until lycanthropy is cured, the nature of which might allow for voluntary transformation into the Werewolf form, or bar you from using this ability.</p>
-            <br>
+            <br></br>
             <p>You can voluntarily allow the curse to take control over you. If you do, the DM rolls 1d4 and the transformation ends after a number of hours equal to the result, or until a condition or time has passed that the DM views appropriate.</p>
-            <br>
+            <br></br>
             <p>Beasts recognize you as an apex predator and will cooperate or run away unless their CR is 3 or higher, individually. You have advantage on Intimidation checks against creatures that are aware of your lycanthropy. </p>
         </description>
         <sheet alt="Monster under the Moon"/>
