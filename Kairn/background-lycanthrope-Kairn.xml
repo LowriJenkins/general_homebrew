@@ -3,7 +3,7 @@
     <info>
         <name>Lycanthrope</name>
         <description>Lycanthrope</description>
-        <update version="0.0.7">
+        <update version="0.0.12">
             <file name="background-lycanthrope-Kairn.xml" url=""/>
         </update>
     </info>
