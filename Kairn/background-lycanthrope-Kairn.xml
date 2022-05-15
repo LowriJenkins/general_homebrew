@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Lycanthrope</name>
+        <description>Lycanthrope</description>
+        <update version="0.0.5">
+            <file name="background-lycanthrope-Kairn.xml" url=""/>
+        </update>
+    </info>
+
+    <element name="Lycanthrope" type="Background" source="Kairn" id="ID_BACKGROUND_LYCANTHROPE_KAIRN">
+        <description>
+            <p>Lycanthropes are creatures who are forced to transform into a hideous beast under the influence of the full moon or a similar condition. While transformed, they are monstrosities, with no amount of violence capable of sating their bloodlust. While not transformed, lycanthropes aim to hide their curse and preserve their hidden identity from those around them. They might trust a select few to keep their curse hidden and help them contain themselves during their mindless transformation. Lycanthropes are generally aiming to discover a way to remove the curse imposed upon them.</p>
+            <p class="indent">Before playing a lycanthrope, talk to your DM about how lycanthropy works in the setting, and what the cause and nature of the curse is. Figure out what the trigger condition of your transformation, and how long it lasts, and ensure the party is onboard. Lycanthropy should be a risk for the party and player until it is resolved. Generally speaking, the curse will have some origin in the family history or the previous actions of the player, and needs to be possible to lift, although this method need not relate to the curse itself (magic/alchemy). If desirable, remove curse might cure lycanthropy, although this path is not recommended as it is generally anticlimactic unless divine magic is exceedingly rare in the setting.</p>
+            <ul class="unstyled">
+                <li><strong>Skill Proficiencies:</strong> Deception, Survival. </li>
+                <li><strong>Tool Proficiencies:</strong> Disguise kit. </li>
+                <li><strong>Language Proficiencies:</strong> Common, one language of your choice </li>
+                <li><strong>Equipment:</strong> Silber manacles (15gp), Disuise Kit, Moon Calendar.</li>
+            </ul>
+            <div element="ID_BACKGROUND_FEATURE_MONSTER_UNDER_THE_MOON" />
+            <h5>SUGGESTED CHARACTERISTICS</h5>
+            <p>Lycanthropes are typically shifty and appear somewhat untrustworthy. Their cursed nature makes them slow to trust people and generally self-deprecating.</p>
+        </description>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <select type="Language" name="Language, " supports="Standard||Exotic" />
+            <grant type="Background Feature" id="ID_BACKGROUND_FEATURE_MONSTER_UNDER_THE_MOON" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
+            <select name="Personality Trait" type="List" number="2">
+                <item id="1">I don’t run from evil. Evil runs from me.</item>
+                <item id="2">I like to read, write, and memorize poetry. It keeps me calm and brings me fleeting moments of happiness.</item>
+                <item id="3">I spend money freely and live life to the fullest, knowing that tomorrow I might die.</item>
+                <item id="4">I live for the thrill of the hunt.</item>
+                <item id="5">I don’t talk about the thing that torments me. I’d rather not burden others with my curse.</item>
+                <item id="6">I expect danger around every corner.</item>
+                <item id="7">I refuse to become a victim, and I will not allow others to be victimized.</item>
+                <item id="8">I put no trust in divine beings.</item>
+            </select>
+            <select name="Ideal" type="List">
+                <item id="1">I try to help those in need, no matter what the personal cost. (Good)</item>
+                <item id="2">I’ll stop the spirits that haunt me or die trying. (Any)</item>
+                <item id="3">I kill monsters to make the world a safer place and to exorcise my own demons. (Good)</item>
+                <item id="4">I have a dark calling that puts me above the law. (Chaotic)</item>
+                <item id="5">I like to know my enemy’s capabilities and weaknesses before rushing into battle. (Lawful)</item>
+                <item id="6">I’m a monster that destroys other monsters and anything else that gets in my way. (Evil)</item>
+            </select>
+            <select name="Bond" type="List">
+                <item id="1">I keep my thoughts and discoveries in a journal. My journal is my legacy.</item>
+                <item id="2">I would sacrifice my life and my soul to protect the innocent.</item>
+                <item id="3">My torment drove away the person I love. I strive to win back the love I’ve lost.</item>
+                <item id="4">A terrible guilt consumes me. I hope that I can find redemption through my actions.</item>
+                <item id="5">There’s evil in me, I can feel it. It must never be set free.</item>
+                <item id="6">I have a child to protect. I must make the world a safer place for him (or her).</item>
+            </select>
+            <select name="Flaw" type="List">
+                <item id="1">I have certain rituals that I must follow every day. I can never break them.</item>
+                <item id="2">I assume the worst in people.</item>
+                <item id="3">I feel no compassion for the dead. They’re the lucky ones.</item>
+                <item id="4">I have an addiction.</item>
+                <item id="5">I am a purveyor of doom and gloom who lives in a world without hope.</item>
+                <item id="6">I talk to spirits that no one else can see.</item>
+            </select>
+        </rules>
+    </element>
+    
+    <element name="Feature: Monster under the Moon" type="Background Feature" source="Kairn" id="ID_BACKGROUND_FEATURE_MONSTER_UNDER_THE_MOON">
+        <supports>Background Feature</supports>
+        <description>
+            <p>When the trigger for your transformation occurs, you morph into a terrible monster until the trigger recedes. In this period of time, you transform into a Werewolf, and the DM controls your actions. The DM might give you limited control at their discretion. While a Werewolf, you retain any features and abilities you possess in your normal form. Your physical stats change to match that of the Werewolf, unless your own physical stats are greater. A Werewolf is hostile to all nearby creatures, but still has a sense of self-preservation and will run away if threatened. Transformations will continue until lycanthropy is cured, the nature of which might allow for voluntary transformation into the Werewolf form, or bar you from using this ability.</p>
+            <p class="indent">You can voluntarily allow the curse to take control over you. If you do, the DM rolls 1d4 and the transformation ends after a number of hours equal to the result, or until a condition or time has passed that the DM views appropriate.</p>
+            <p class="indent">Beasts recognize you as an apex predator and will cooperate or run away unless their CR is 3 or higher, individually. You have advantage on Intimidation checks against creatures that are aware of your lycanthropy. </p>"
+        </description>
+        <sheet alt="Monster under the Moon"/>
+    </element>
+
+</elements>
