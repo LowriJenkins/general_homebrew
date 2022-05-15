@@ -3,7 +3,7 @@
     <info>
         <name>Lycanthrope</name>
         <description>Lycanthrope</description>
-        <update version="0.0.6">
+        <update version="0.0.7">
             <file name="background-lycanthrope-Kairn.xml" url=""/>
         </update>
     </info>
@@ -76,7 +76,7 @@
             <p></p>
             <p>You can voluntarily allow the curse to take control over you. If you do, the DM rolls 1d4 and the transformation ends after a number of hours equal to the result, or until a condition or time has passed that the DM views appropriate.</p>
             <p></p>
-            <p">Beasts recognize you as an apex predator and will cooperate or run away unless their CR is 3 or higher, individually. You have advantage on Intimidation checks against creatures that are aware of your lycanthropy. </p>
+            <p>Beasts recognize you as an apex predator and will cooperate or run away unless their CR is 3 or higher, individually. You have advantage on Intimidation checks against creatures that are aware of your lycanthropy. </p>
         </description>
         <sheet alt="Monster under the Moon"/>
     </element>
