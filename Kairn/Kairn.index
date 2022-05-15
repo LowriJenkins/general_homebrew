@@ -2,7 +2,7 @@
 <index>
 	<info>
 		<name>Kairn</name>
-		<update version="1.0.1">
+		<update version="1.0.2">
 			<file name="Kairn.index" url="https://raw.githubusercontent.com/SamJenkins1/general_homebrew/master/Kairn/Kairn.index" />
 		</update>
 	</info>
@@ -11,5 +11,6 @@
 		<file name="extra-Stuff.xml" url="https://raw.githubusercontent.com/SamJenkins1/general_homebrew/master/Kairn/extra-Stuff.xml" />
 		<file name="race-Fnhan.xml" url="https://raw.githubusercontent.com/SamJenkins1/general_homebrew/master/Kairn/race-Fnhan.xml" />
 		<file name="race-Starborn.xml" url="https://raw.githubusercontent.com/SamJenkins1/general_homebrew/master/Kairn/race-Starborn.xml" />
+		<file name="background-lycanthrope-Kairn.xml" url="https://raw.githubusercontent.com/SamJenkins1/general_homebrew/master/Kairn/background-lycanthrope-Kairn.xml" />
 	</files>
 </index>
