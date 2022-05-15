@@ -15,18 +15,20 @@
             <ul class="unstyled">
                 <li><strong>Skill Proficiencies:</strong> Deception, Survival. </li>
                 <li><strong>Tool Proficiencies:</strong> Disguise kit. </li>
-                <li><strong>Language Proficiencies:</strong> Common, one language of your choice </li>
+                <li><strong>Language Proficiencies:</strong> one language of your choice </li>
                 <li><strong>Equipment:</strong> Silber manacles (15gp), Disuise Kit, Moon Calendar.</li>
             </ul>
             <div element="ID_BACKGROUND_FEATURE_MONSTER_UNDER_THE_MOON" />
             <h5>SUGGESTED CHARACTERISTICS</h5>
             <p>Lycanthropes are typically shifty and appear somewhat untrustworthy. Their cursed nature makes them slow to trust people and generally self-deprecating.</p>
         </description>
+        <setters>
+			<set name="short">Deception, Survival, Disguise kit, One language</set>
+		</setters>
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" />
             <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
             <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT" />
-            <grant type="Language" id="ID_LANGUAGE_COMMON" />
             <select type="Language" name="Language, " supports="Standard||Exotic" />
             <grant type="Background Feature" id="ID_BACKGROUND_FEATURE_MONSTER_UNDER_THE_MOON" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
             <select name="Personality Trait" type="List" number="2">
