@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Feats</name>
-        <description>Racial Feats from Kairn</description>
+        <description>General Feats from Kairn</description>
         <update version="1.0.1">
             <file name="feats-General-Karin.xml" url="https://raw.githubusercontent.com/SamJenkins1/general_homebrew/master/Kairn/feats-General-Kairn.xml" />
         </update>
