@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Veil Parter</name>
+		<description>Veil Parter Background</description>
+		<update version="0.0.6">
+            <file name="background-adventurer-orizon.xml" url=""/>
+        </update>
+		<author>Jess</author>
+	</info>
+
+	<element name="Veil Parter" type="Background" source="Jess and Lowri Orizon Homebrew" id="ID_BACKGROUND_VEIL_PARTER">
+		<description>
+			<p>You came to this place Veil Parter, this world and its history are new or unknown to you. This could have been deliberate, a summoning, exile, or exploration. Or by chance, a mistake in a portal, a storm of wild magic. </p>
+			<ul class="unstyled">
+				<li><strong>Skill Proficiencies:</strong> Survial.</li>
+				<li><strong>Tool Proficiencies:</strong> Navigator's tools</li>
+				<li><strong>Equipment:</strong> A set of artisan’s tools or musical instrument of your choice, a shovel, a set of common or explorers clothes, some small trinket from your home plane, and a belt pouch containing 15 gp</li>
+			</ul>
+			<div element="ID_BACKGROUND_FEATURE_PART_THE_VEIL" />
+			<h5>SUGGESTED CHARACTERISTICS</h5>
+			<p></p>
+		</description>
+		<setters>
+			<set name="short">Animal Handling, Survival, Artisan’s Tool, Vehicles (Land)</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+			<grant type="Proficiency" id="ID_AAAA_WHY_ISNT_THIS_IN_CARTOGRAPHERS_TOOLS" />
+			<grant type="Background Feature" id="ID_BACKGROUND_FEATURE_PART_THE_VEIL" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
+			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+			<select type="List" name="Personality Trait" number="2">
+				<item id="1"></item>
+				<item id="2"></item>
+				<item id="3"></item>
+				<item id="4"></item>
+				<item id="5"></item>
+				<item id="6"></item>
+			</select>
+			<select type="List" name="Ideal">
+				<item id="1"></item>
+				<item id="2"></item>
+				<item id="3"></item>
+				<item id="4"></item>
+				<item id="5"></item>
+				<item id="6"></item>
+			</select>
+			<select type="List" name="Bond">
+				<item id="1"></item>
+				<item id="2"></item>
+				<item id="3"></item>
+				<item id="4"></item>
+				<item id="5"></item>
+				<item id="6"></item>
+				<item id="7"></item>
+			</select>
+			<select type="List" name="Flaw">
+				<item id="1"></item>
+				<item id="2"></item>
+				<item id="3"></item>
+				<item id="4"></item>
+				<item id="5"></item>
+				<item id="6"></item>
+			</select>
+		</rules>
+	</element>
+
+	<element name="Feature: Parting the Veil" type="Background Feature" source="Jess and Lowri Orizon Homebrew" id="ID_BACKGROUND_FEATURE_PART_THE_VEIL">
+		<supports>Background Feature</supports>
+		<description>
+			<p>You have mastered the art of partings the ability to travel between realms at will. Indeed your mastery of it is such that with some of effort, you may even bring others with you.</p>
+			<p class="indent">As an action you may travel between the realms, passing to one of the two realms you do not currently occupy. By maintaining concentration on this for longer, you may even bring things with you. Two turns allowing you to bring objects, and three, even your companions.</p>
+		</description>
+		<sheet alt="Parting the Veil" />
+	</element>
+
+	<element name="Navigator’s Tools" type="Item" source="Xanathar's Guide" id="ID_AAAA_WHY_ISNT_THIS_IN_CARTOGRAPHERS_TOOLS">
+		<description>
+			<p>Using navigators tools you can determine a course based on obsering the stars. It also grants you insight into charts and maps while devolping your sense of direction.</p>
+			<p class="indent"><strong><em>Components.</em></strong> Navigator's tools include a sextant, a compass, calipers, a ruler, parchment, ink, and a quill. </p>
+			<p class="indent"><strong><em>Survival.</em></strong> Knowledge of navigator's tools helps you avoid becoming lost and also grants you insight into the most likely location for roads and settlements.</p>
+			<p class="indent"><strong><em>Sighting.</em></strong> By taking careful measurements, you can determine your position on a nautical chart and the time of day.</p>
+			<h5>Navigator’s TOOLS</h5>
+			<table>
+				<thead>
+					<tr><td>Activity</td><td class="col-10">DC</td></tr>
+				</thead>
+				<tr><td>Plot a Course</td><td>10</td></tr>
+			</table>
+		</description>
+		<setters>
+			<set name="category">Tools</set>
+			<set name="cost" currency="gp">15</set>
+			<set name="weight" lb="6">6 lbs.</set>
+			<set name="type">Tool</set>
+			<set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_CARTOGRAPHERS_TOOLS</set>
+		</setters>
+	</element>
+</elements>
