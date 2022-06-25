@@ -3,22 +3,20 @@
     <info>
         <name>Feats</name>
         <description>Racial Feats from Kairn</description>
-        <update version="1.0.0">
+        <update version="1.0.1">
             <file name="feats-General-Karin.xml" url="https://raw.githubusercontent.com/SamJenkins1/general_homebrew/master/Kairn/feats-General-Kairn.xml" />
         </update>
     </info>
     <element name="Weapon Specialist" type="Feat" source="Kairn" id="ID_KAIRN_WEAPON_SPECIALIST">
         <description>
-            <p>You specialize with the use of one specific weapon. When you gain this feat, </p>
-            <p>choose a melee weapon that you are proficient with. You may add half your proficiency bonus to any damage you deal with your chosen weapon. </p>
+            <p>You specialize with the use of one specific weapon. When you gain this feat, choose a melee weapon that you are proficient with. You may add half your proficiency bonus to any damage you deal with your chosen weapon. </p>
             <p class="indent">Additionally, choose one of the following properties: finesse, light, reach, or thrown. The weapon gains the chose property.</p>
-            <p>If the weapon is heavy and you choose the light property, it looses the heavy property instead of becoming light. If you choose the thrown property, </p>
-            <p>the distance at which you can throw the weapon is 20/60 feet. </p>
+            <p>If the weapon is heavy and you choose the light property, it looses the heavy property instead of becoming light. If you choose the thrown property, the distance at which you can throw the weapon is 20/60 feet. </p>
         </description>
         <sheet>
             <description>
                 <p>You specialize in the use of a specific weapon, chosen on selection of this feat. You may add {{proficiency:half}} to any damage you deal with them.</p>
-                <p class="indent">In addition, for you the weapon has the one of the following properties.</p>
+                <p class="indent">In addition, for you the weapon has the one of the following properties:</p>
                 <p class="indent">Finesse, light, reach, or thrown.</p>
            </description>
         </sheet>
