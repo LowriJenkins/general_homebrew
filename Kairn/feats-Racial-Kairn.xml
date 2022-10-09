@@ -4,7 +4,7 @@
         <name>Feats</name>
         <description>Racial Feats from Kairn</description>
         <update version="1.0.3">
-            <file name="feats-Racial-Karin.xml" url="https://raw.githubusercontent.com/SamJenkins1/general_homebrew/master/Kairn/feats-Racial-Kairn.xml" />
+            <file name="feats-Racial-Karin.xml" url="https://raw.githubusercontent.com/LowriJenkins/general_homebrew/master/Kairn/feats-Racial-Kairn.xml" />
         </update>
     </info>
     <element name="Improved Powerful Legs" type="Feat" source="Kairn" id="ID_KAIRN_POWERFUL_LEGS">

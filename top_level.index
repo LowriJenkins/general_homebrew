@@ -3,11 +3,11 @@
 	<info>
 		<name>Your Content</name>
 		<update version="1.0.4">
-			<file name="top_level.index" url="https://raw.githubusercontent.com/SamJenkins1/general_homebrew/master/top_level.index" />
+			<file name="top_level.index" url="https://raw.githubusercontent.com/LowriJenkins/general_homebrew/master/top_level.index" />
 		</update>
 	</info>
 	<files>
-		<file name="Kairn.index" url="https://raw.githubusercontent.com/SamJenkins1/general_homebrew/master/Kairn/Kairn.index" />
-		<file name="Orizon.index" url="https://raw.githubusercontent.com/SamJenkins1/general_homebrew/master/Orizon/Orizon.index" />
+		<file name="Kairn.index" url="https://raw.githubusercontent.com/LowriJenkins/general_homebrew/master/Kairn/Kairn.index" />
+		<file name="Orizon.index" url="https://raw.githubusercontent.com/LowriJenkins/general_homebrew/master/Orizon/Orizon.index" />
 	</files>
 </index>

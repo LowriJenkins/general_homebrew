@@ -4,7 +4,7 @@
         <name>Feats</name>
         <description>General Feats from Kairn</description>
         <update version="1.0.1">
-            <file name="feats-General-Karin.xml" url="https://raw.githubusercontent.com/SamJenkins1/general_homebrew/master/Kairn/feats-General-Kairn.xml" />
+            <file name="feats-General-Karin.xml" url="https://raw.githubusercontent.com/LowriJenkins/general_homebrew/master/Kairn/feats-General-Kairn.xml" />
         </update>
     </info>
     <element name="Weapon Specialist" type="Feat" source="Kairn" id="ID_KAIRN_WEAPON_SPECIALIST">

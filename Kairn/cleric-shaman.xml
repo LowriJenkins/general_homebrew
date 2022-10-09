@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Shaman Domain</name>
+		<description>Shaman Cleric</description>
+		<update version="0.0.2">
+			<file name="cleric-shaman.xml" url="https://raw.githubusercontent.com/LowriJenkins/general_homebrew/master/Kairn/cleric-shaman.xml" />
+		</update>
+	</info>
+	<element name="Shaman Domain" type="Archetype" source="Kairn" id="ID_KAIRN_SHAMAN_Domain">
+		<supports>Divine Domain</supports>
+		<description>
+			<p>The shaman channels the might of totems and of their ancestors.</p>
+			<div element="ID_KAIRN_ARCHETYPE_FEATURE_SHAMAN_DOMAIN_SPELLS" />
+			<div element="ID_KAIRN_ARCHETYPE_FEATURE_SHAMAN_DOMAIN_ANCESTRAL_WAYS" />
+			<div element="ID_KAIRN_ARCHETYPE_FEATURE_SHAMAN_DOMAIN_SHEPHERD_OF_THE_DEAD" />
+			<div element="ID_KAIRN_ARCHETYPE_FEATURE_SHAMAN_DOMAIN_CD_TOTEMIC_MASTERY" />
+			<div element="ID_KAIRN_ARCHETYPE_FEATURE_SHAMAN_DOMAIN_WALKER_OF_THE_ENDLESS_PLAINS" />
+			<div element="ID_KAIRN_ARCHETYPE_FEATURE_SHAMAN_DOMAIN_RIDER_OF_DESTINY" />
+			<div element="ID_KAIRN_ARCHETYPE_FEATURE_SHAMAN_DOMAIN_TOTEMS_OF_LIFE_AND_DEATH" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_KAIRN_ARCHETYPE_FEATURE_SHAMAN_DOMAIN_SPELLS" level="1" />
+			<grant type="Archetype Feature" id="ID_KAIRN_ARCHETYPE_FEATURE_SHAMAN_DOMAIN_ANCESTRAL_WAYS" level="1" />
+			<grant type="Archetype Feature" id="ID_KAIRN_ARCHETYPE_FEATURE_SHAMAN_DOMAIN_SHEPHERD_OF_THE_DEAD" level="1" />
+			<grant type="Archetype Feature" id="ID_KAIRN_ARCHETYPE_FEATURE_SHAMAN_DOMAIN_CD_TOTEMIC_MASTERY" level="2" />
+			<grant type="Archetype Feature" id="ID_KAIRN_ARCHETYPE_FEATURE_SHAMAN_DOMAIN_WALKER_OF_THE_ENDLESS_PLAINS" level="6" />
+			<grant type="Archetype Feature" id="ID_KAIRN_ARCHETYPE_FEATURE_SHAMAN_DOMAIN_RIDER_OF_DESTINY" level="8" />
+			<grant type="Archetype Feature" id="ID_KAIRN_ARCHETYPE_FEATURE_SHAMAN_DOMAIN_TOTEMS_OF_LIFE_AND_DEATH" level="17" />
+		</rules>
+	</element>
+	<element name="Domain Spells" type="Archetype Feature" source="Kairn" id="ID_KAIRN_ARCHETYPE_FEATURE_SHAMAN_DOMAIN_SPELLS">
+		<description>
+			<p><em>1st-level Shaman Domain feature</em></p>
+			<p>You gain domain spells at the cleric levels listed in the Shaman Domain Spells table. See the Divine Domain class feature in the <i>Player’s Handbook</i> for how domain spells work.</p>
+			<h5 class="caption">Shaman Domain Spells</h5>
+			<table>
+				<thead>
+					<tr><td>Cleric Level</td><td>Spells</td></tr>
+				</thead>
+				<tr><td>1st</td><td><em>bless, guiding bolt</em></td></tr>
+				<tr><td>3rd</td><td><em>enhance ability, augury</em></td></tr>
+				<tr><td>5th</td><td><em>speak with dead, spirit guardians</em></td></tr>
+				<tr><td>7th</td><td><em>death ward, divination</em></td></tr>
+				<tr><td>9th</td><td><em>commune, raise dead</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_BLESS" level="1" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_GUIDING_BOLT" level="1" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_ENHANCE_ABILITY" level="3" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_AUGURY" level="3" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_DEAD" level="5" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_SPIRIT_GUARDIANS" level="5" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_DEATH_WARD" level="7" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_DIVINATION" level="7" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_COMMUNE" level="9" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_RAISE_DEAD" level="9" spellcasting="Cleric" prepared="true" />
+		</rules>
+	</element>
+	<element name="Ancestral Ways" type="Archetype Feature" source="Kairn" id="ID_KAIRN_ARCHETYPE_FEATURE_SHAMAN_DOMAIN_ANCESTRAL_WAYS">
+		<description>
+			<p><em>1st-level Shaman Domain feature</em></p>
+			<p>You can invoke your ancestors to guide yourself or your allies. You learn the guidance cantrip, which doesn't count against the number of cleric cantrips you know. </p>
+            <p class="indent">For you, it has a range of 30 feet, and you gain an extra +1 when you cast it on yourself.</p>
+		</description>
+		<sheet>
+			<description>
+            When you cast the cantrip Guidance, you may treat it as if it has 30 feet range. 
+            Additionally, when you target yourself with it you instead add a d4+1 rather than the normal d4.
+            </description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_GUIDANCE" />
+		</rules>
+	</element>
+	<element name="Shepherd of the Dead" type="Archetype Feature" source="Kairn" id="ID_KAIRN_ARCHETYPE_FEATURE_SHAMAN_DOMAIN_SHEPHERD_OF_THE_DEAD">
+		<description>
+			<p><em>1st-level Shaman Domain feature</em></p>
+			<p>Your ancient guardians start using you as a conduit for their ancestral knowledge. When you make an ability check, you may choose to succeed a check automatically. You must make this check before you roll any dice and you can only do it if a possible dice roll (including modifiers) would allow you to succeed.. If you do, your ancestors seize your body until the end of your next turn, and complete whatever task you are attempting. If they cannot complete the task by then, they only grant you advantage. After your channeling, you are stunned for 1 turn due to the exhaustion.</p>
+			<p class="indent">You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses when you finish a long rest.</p>
+		</description>
+		<sheet usage="{{proficiency}}/Long Rest">
+			<description>At 1st level, your ancient guardians start using you as a conduit for their ancestral knowledge. When you make an ability check, you may choose to succeed a check automatically. You must make this check before you roll any dice and you can only do it if a possible dice roll (including modifiers) would allow you to succeed.. If you do, your ancestors seize your body until the end of your next turn, and complete whatever task you are attempting. If they cannot complete the task by then, they only grant you advantage. After your channeling, you are stunned for 1 turn due to the exhaustion.</description>
+		</sheet>
+	</element>
+	<element name="Channel Divinity: Totemic Mastery" type="Archetype Feature" source="Kairn" id="ID_KAIRN_ARCHETYPE_FEATURE_SHAMAN_DOMAIN_CD_TOTEMIC_MASTERY">
+		<description>
+			<p><em>2nd-level Shaman Domain feature</em></p>
+			<p>You can use your Channel Divinity to activate the effects of a totem.</p>
+			<p>Choose one of the following effects. One creature of your choice within 30 feet of you gain the benefit of the totem for 1 minute:</p>
+            <table>
+				<thead>
+					<tr><td>Totem</td><td>Effect</td></tr>
+				</thead>
+				<tr><td>Totem of the Bear:</td><td><em>The target gains resistance against bludgeoning, piercing and slashing damage.</em></td></tr>
+				<tr><td>Totem of the Hawk:</td><td><em>The target gains a flying speed equal to their movement speed during their turns. They fall harmlessly up to 20 feet at the end of their turn.</em></td></tr>
+				<tr><td>Totem of the Boar:</td><td><em>Whenever the target moves at least 10 feet in a straight line during their turn, they may spend their bonus action to push or knock an enemy within range prone.</em></td></tr>
+				<tr><td>Totem of the Snake:</td><td><em>When the target casts a spell, they may have that spell deal an additional 1d8+your Wisdom modifier psychic damage, up to once per turn. </em></td></tr>
+			</table>
+		</description>
+		<sheet alt="Totemic Mastery" action="Action" usage="Channel Divinity">
+			<description>You present your holy symbol, one creature of your choice within 30 feet of you gains the benefit of the totem for 1 minute:
+			Totem of the Bear: The target gains resistance against bludgeoning, piercing and slashing damage.
+			Totem of the Hawk: The target gains a flying speed equal to their movement speed during their turns. They fall harmlessly up to 20 feet at the end of their turn.
+			Totem of the Boar: Whenever the target moves at least 10 feet in a straight line during their turn, they may spend their bonus action to push or prone an enemy within range. 
+			Totem of the Snake: When the target casts a spell, they may have that spell deal an additional 1d8+your {{wisdom:modifier}} psychic damage, up to once per turn. </description>
+		</sheet>
+	</element>
+	<element name="Walker of the Endless Plains" type="Archetype Feature" source="Kairn" id="ID_KAIRN_ARCHETYPE_FEATURE_SHAMAN_DOMAIN_WALKER_OF_THE_ENDLESS_PLAINS">
+		<description>
+			<p><em>6th-level Shaman Domain feature</em></p>
+			<p>Whenever you use a spell to commune with the dead or greater forces, you can bind their will to your own. Whenever you cast Speak with Dead, the target recognizes you as a friend, unless you had a hand in its death or downfall.</p>
+			<p>When you commune, you never get misleading answers from deities, but they might choose to not answer your question.</p>
+			<p class="indent">Additionally, when Death Ward is activated, the target regains 2d8+your Widom modifier hit points. This ability can only trigger once per long rest.</p>
+		</description>
+		<sheet>
+			<description>
+			Whenever you use a spell to commune with the dead or greater forces, you can bind their will to your own. Whenever you cast Speak with Dead, the target recognizes you as a friend, unless you had a hand in its death or downfall.
+			When you commune, you never get misleading answers from deities, but they might choose to not answer your question.
+			Additionally, when Death Ward is activated, the target regains 2d8 + {{wisdom:modifier}}  hit points. This ability can only trigger once per long rest.
+			</description>
+		</sheet>
+	</element>
+	<element name="Rider of Destiny" type="Archetype Feature" source="Kairn" id="ID_KAIRN_ARCHETYPE_FEATURE_SHAMAN_DOMAIN_RIDER_OF_DESTINY">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_DIVINE_STRIKE_OR_POTENT_SPELLCASTING</requirements>
+		<description>
+			<p><em>8th-level Shaman Domain feature</em></p>
+			<p>You gain the ability to prevent or bind destiny. Once per long rest, when a creature you can see is hit by a critical strike, you can make that critical strike deal 4d8+Wisdom modifier more or less damage. </p>
+			<p class="indent">When you reach level 13, you can activate this feature twice per long rest.</p>
+		</description>
+		<sheet>
+			<description level="8" usage="1/Long Rest">You gain the ability to prevent or bind destiny. Once per long rest, when a creature you can see is hit by a critical strike, you can make that critical strike deal 4d8 + {{wisdom:modifier}} more or less damage.</description>
+			<description level="13" usage="2/Long Rest">You gain the ability to prevent or bind destiny. Once per long rest, when a creature you can see is hit by a critical strike, you can make that critical strike deal 4d8 + {{wisdom:modifier}} more or less damage.</description>
+		</sheet>
+	</element>
+	<element name="Totems of Life and Death:" type="Archetype Feature" source="Kairn" id="ID_KAIRN_ARCHETYPE_FEATURE_SHAMAN_DOMAIN_TOTEMS_OF_LIFE_AND_DEATH">
+		<description>
+			<p><em>17th-level Shaman Domain feature</em></p>
+			<p>You learn to intermingle totems and destiny. You can choose to acquire either a totem of life, or a totem of death. </p>
+            <table>
+				<thead>
+					<tr><td>Totem</td><td>Effect</td></tr>
+				</thead>
+				<tr><td>Totem of life:</td><td><em>When a creature within 60 feet of you dies, you may instead restore it to half hit points as a reaction.</em></td></tr>
+				<tr><td>Totem of death:</td><td><em>when a creature within 60 feet of you loses 30 hit points or more from a single source, you may have it take twice as much damage instead (up to 60 hit points). </em></td></tr>
+			</table>
+		</description>
+		<rules>
+		<select type="Archetype Feature" name="Totem of Life or Death" supports="ID_KAIRN_ARCHETYPE_FEATURE_SHAMAN_DOMAIN_TOTEM_OF_LIFE|ID_KAIRN_ARCHETYPE_FEATURE_SHAMAN_DOMAIN_TOTEM_OF_DEATH" />
+		</rules>
+        <sheet display="false">
+			<description>You learn to intermingle totems and destiny. You can choose to acquire either a totem of life, or a totem of death. </description>
+		</sheet>
+	</element>	
+
+	<element name="Totems of Life and Death: Life" type="Archetype Feature" source="Kairn" id="ID_KAIRN_ARCHETYPE_FEATURE_SHAMAN_DOMAIN_TOTEM_OF_LIFE">
+		<description>
+			<p>When a creature within 60 feet of you dies, you may instead restore it to half hit points as a reaction.</p>
+			<p class="indent">If you do, you cannot use this feature again until you kill at least one enemy and benefit from a long rest. (If you do not kill at least one enemy, you instead recharge after two long rests). </p>
+		</description>
+		<sheet>
+			<description usage="1/ 2 Long Rests (or 1 Long Rest If you kill an enemy)">When a creature within 60 feet of you die, you may instead restore it to half hit points as a reaction.</description>
+		</sheet>
+	</element>
+
+	<element name="Totems of Life and Death: Death" type="Archetype Feature" source="Kairn" id="ID_KAIRN_ARCHETYPE_FEATURE_SHAMAN_DOMAIN_TOTEM_OF_DEATH">
+		<description>
+			<p>when a creature within 60 feet of you loses 30 hit points or more from a single source, you may have it take twice as much damage instead (up to 60 hit points).</p>
+			<p class="indent">If you do, you cannot use this feature again until you heal at least one ally and benefit from a long rest. (If you do not heal at least one ally, you instead recharge after two long rests) </p>
+		</description>
+		<sheet>
+			<description usage="1/ 2 Long Rests (or 1 Long Rest If you heal an ally)">when a creature within 60 feet of you loses 30 hit points or more from a single source, you may have it take twice as much damage instead (up to 60 hit points).</description>
+		</sheet>
+	</element>	
+  
+</elements>

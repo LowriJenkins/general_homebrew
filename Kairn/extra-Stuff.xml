@@ -3,7 +3,7 @@
 	<info>
 		<name>Extra Stuff</name>
 		<update version="1.0.0">
-			<file name="extra-Stuff.xml" url="https://raw.githubusercontent.com/SamJenkins1/general_homebrew/master/Kairn/extra-Stuff.xml" />
+			<file name="extra-Stuff.xml" url="https://raw.githubusercontent.com/LowriJenkins/general_homebrew/master/Kairn/extra-Stuff.xml" />
 		</update>
 	</info>
 

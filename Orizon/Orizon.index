@@ -3,13 +3,13 @@
 	<info>
 		<name>Your Content</name>
 		<update version="1.0.3">
-			<file name="Orizon.index" url="https://raw.githubusercontent.com/SamJenkins1/general_homebrew/master/Orizon/Orizon.index" />
+			<file name="Orizon.index" url="https://raw.githubusercontent.com/LowriJenkins/general_homebrew/master/Orizon/Orizon.index" />
 		</update>
 	</info>
 	<files>
-		<file name="background-adventurer-orizon.xml" url="https://raw.githubusercontent.com/SamJenkins1/general_homebrew/master/Orizon/background-adventurer-orizon.xml" />
-		<file name="background-from-another-plane.xml" url="https://raw.githubusercontent.com/SamJenkins1/general_homebrew/master/Orizon/background-from-another-plane.xml" />
-		<file name="orizon-deities.xml" url="https://raw.githubusercontent.com/SamJenkins1/general_homebrew/master/Orizon/orizon-deities.xml" />
-		<file name="race-mothfolk.xml" url="https://raw.githubusercontent.com/SamJenkins1/general_homebrew/master/Orizon/race-mothfolk.xml" />
+		<file name="background-adventurer-orizon.xml" url="https://raw.githubusercontent.com/LowriJenkins/general_homebrew/master/Orizon/background-adventurer-orizon.xml" />
+		<file name="background-from-another-plane.xml" url="https://raw.githubusercontent.com/LowriJenkins/general_homebrew/master/Orizon/background-from-another-plane.xml" />
+		<file name="orizon-deities.xml" url="https://raw.githubusercontent.com/LowriJenkins/general_homebrew/master/Orizon/orizon-deities.xml" />
+		<file name="race-mothfolk.xml" url="https://raw.githubusercontent.com/LowriJenkins/general_homebrew/master/Orizon/race-mothfolk.xml" />
 	</files>
 </index>

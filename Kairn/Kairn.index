@@ -2,16 +2,17 @@
 <index>
 	<info>
 		<name>Kairn</name>
-		<update version="1.0.5">
-			<file name="Kairn.index" url="https://raw.githubusercontent.com/SamJenkins1/general_homebrew/master/Kairn/Kairn.index" />
+		<update version="1.0.6">
+			<file name="Kairn.index" url="https://raw.githubusercontent.com/LowriJenkins/general_homebrew/master/Kairn/Kairn.index" />
 		</update>
 	</info>
 	<files>
-		<file name="feats-Racial-Kairn.xml" url="https://raw.githubusercontent.com/SamJenkins1/general_homebrew/master/Kairn/feats-Racial-Kairn.xml" />
-		<file name="feats-General-Kairn.xml" url="https://raw.githubusercontent.com/SamJenkins1/general_homebrew/master/Kairn/feats-General-Kairn.xml" />
-		<file name="extra-Stuff.xml" url="https://raw.githubusercontent.com/SamJenkins1/general_homebrew/master/Kairn/extra-Stuff.xml" />
-		<file name="race-Fnhan.xml" url="https://raw.githubusercontent.com/SamJenkins1/general_homebrew/master/Kairn/race-Fnhan.xml" />
-		<file name="race-Starborn.xml" url="https://raw.githubusercontent.com/SamJenkins1/general_homebrew/master/Kairn/race-Starborn.xml" />
-		<file name="background-lycanthrope-Kairn.xml" url="https://raw.githubusercontent.com/SamJenkins1/general_homebrew/master/Kairn/background-lycanthrope-Kairn.xml" />
+		<file name="feats-Racial-Kairn.xml" url="https://raw.githubusercontent.com/LowriJenkins/general_homebrew/master/Kairn/feats-Racial-Kairn.xml" />
+		<file name="feats-General-Kairn.xml" url="https://raw.githubusercontent.com/LowriJenkins/general_homebrew/master/Kairn/feats-General-Kairn.xml" />
+		<file name="extra-Stuff.xml" url="https://raw.githubusercontent.com/LowriJenkins/general_homebrew/master/Kairn/extra-Stuff.xml" />
+		<file name="race-Fnhan.xml" url="https://raw.githubusercontent.com/LowriJenkins/general_homebrew/master/Kairn/race-Fnhan.xml" />
+		<file name="race-Starborn.xml" url="https://raw.githubusercontent.com/LowriJenkins/general_homebrew/master/Kairn/race-Starborn.xml" />
+		<file name="background-lycanthrope-Kairn.xml" url="https://raw.githubusercontent.com/LowriJenkins/general_homebrew/master/Kairn/background-lycanthrope-Kairn.xml" />
+		<file name="cleric-shaman.xml" url="https://raw.githubusercontent.com/LowriJenkins/general_homebrew/master/Kairn/cleric-shaman.xml" />
 	</files>
 </index>
