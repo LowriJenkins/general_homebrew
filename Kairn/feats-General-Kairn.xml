@@ -3,7 +3,7 @@
     <info>
         <name>Feats</name>
         <description>General Feats from Kairn</description>
-        <update version="1.0.1">
+        <update version="1.0.2">
             <file name="feats-General-Karin.xml" url="https://raw.githubusercontent.com/LowriJenkins/general_homebrew/master/Kairn/feats-General-Kairn.xml" />
         </update>
     </info>
@@ -20,6 +20,28 @@
                 <p class="indent">Finesse, light, reach, or thrown.</p>
            </description>
         </sheet>
+    </element>
+
+    <element name="Bearer of the Dark Zenith" type="Feat" source="Kairn" id="ID_KAIRN_DARK_ZENITH">
+        <description>
+            <p>You have been trained as one of the bearers of the Silver Zenith, a legendary blade designed to bind and seal threats that might challenge the eternal Empire of Man. The blade was called upon in ancient times to face a sudden assult by an unexpected and impossible threat. In the chaos that followedm the Silver Zenith sealed the being, but could not bind it, and it took control of the blade. You now carry the Dark Zenith, desperate to keep it away from the hands of those foolish enough to think they could use its power for their own purposes: </p>
+            <p>You gain the following features: </p>
+            <p class="indent">There exist 10 ritual Instruments that can be used to control you and the Dark Zenith. Each instrument has its own command word that must be known to use an instrument. By invoking the instruments, control can be exerted over you. As an action, another creature can attempt to bind your will. You must succeed a DC 10 Wisdom Save with disadvantage, or be under the effect of Dominate Person as if it was cast by the character attempting to bind your will. If they have at least two instruments, the DC is 15 instead, and the effect of the spell can last up to 1 hour. If they have at least three instruments, you automatically fail the saving throw, and the control can last up to 8 hours.</p>
+            <p class="indent">You can unleash the Dark Zenith as an action. The Dark Zenith has three primary functions: Firstly, it can be used to end any ongoing spell effect or other magical effect or contract, as though Dispel Magic or Remove Curse were cast, although the removal always succeeds. Secondly, it can be used to Planeshift, by cutting through the void that seperates the planes. To Planeshift, you must have previously visited the plane, have a tuning rod attuned to the specific plane, have a depiction of a specific location in the plane that was created in the last 32 days, or have an object worth at least 50gp that was taken from the plane in the last 30 days. Thirdly the Dark Zenith can be used to destroy a creature. If you are within 5 feet of a creature you can make a melee weapon attack with advantage, as though you were using a light, finesse weapon. On a hit the creature must succeed on a DC 30 Charisma Saving Throw or be bound and sealed in the blade. This kills the creature, and it cannot be resurrected by any means short of a wish spell freeing it from the blade.</p>
+            <p class="indent">The Power of the being in the blade has partially affected you, and changed your being. You gain resitance to necrotic damage, and your maximum hit points cannot be reduced by any means. When you reduce an undead to 0 hp, you can immediatly kill it, preventing it from being resurrected by any means short of a wish spell, unless it is the progenitor of a race, such as an Elden Vampire, Elder Zombie, or Skeleton Lord. Whenever you reduce a creature to 0 hp, your next weapon attack deals an extra 1d8 necrotic damage. When you reach level 8, this damage increases to 2d8. When you reach level 14 this damage increases to 3d8.</p>
+            <p class="indent">The being within your blade yearns to be free. As an action, you can release it temporarily. This has catastrophic consequences.</p>
+        </description>
+        <sheet>
+            <description>
+            <p class="indent">There exist 10 ritual Instruments that can be used to control you and the Dark Zenith. Each instrument has its own command word that must be known to use an instrument. By invoking the instruments, control can be exerted over you. As an action, another creature can attempt to bind your will. You must succeed a DC 10 Wisdom Save with disadvantage, or be under the effect of Dominate Person as if it was cast by the character attempting to bind your will. If they have at least two instruments, the DC is 15 instead, and the effect of the spell can last up to 1 hour. If they have at least three instruments, you automatically fail the saving throw, and the control can last up to 8 hours.</p>
+            <p class="indent">You can unleash the Dark Zenith as an action. The Dark Zenith has three primary functions: Firstly, it can be used to end any ongoing spell effect or other magical effect or contract, as though Dispel Magic or Remove Curse were cast, although the removal always succeeds. Secondly, it can be used to Planeshift, by cutting through the void that seperates the planes. To Planeshift, you must have previously visited the plane, have a tuning rod attuned to the specific plane, have a depiction of a specific location in the plane that was created in the last 32 days, or have an object worth at least 50gp that was taken from the plane in the last 30 days. Thirdly the Dark Zenith can be used to destroy a creature. If you are within 5 feet of a creature you can make a melee weapon attack with advantage, as though you were using a light, finesse weapon. On a hit the creature must succeed on a DC 30 Charisma Saving Throw or be bound and sealed in the blade. This kills the creature, and it cannot be resurrected by any means short of a wish spell freeing it from the blade.</p>
+            <p class="indent">The Power of the being in the blade has partially affected you, and changed your being. You gain resitance to necrotic damage, and your maximum hit points cannot be reduced by any means. When you reduce an undead to 0 hp, you can immediatly kill it, preventing it from being resurrected by any means short of a wish spell, unless it is the progenitor of a race, such as an Elden Vampire, Elder Zombie, or Skeleton Lord. Whenever you reduce a creature to 0 hp, your next weapon attack deals an extra 1d8 necrotic damage. When you reach level 8, this damage increases to 2d8. When you reach level 14 this damage increases to 3d8.</p>
+            <p class="indent">The being within your blade yearns to be free. As an action, you can release it temporarily. This has catastrophic consequences.</p>
+           </description>
+        </sheet>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+        </rules>
     </element>
 
 </elements>
